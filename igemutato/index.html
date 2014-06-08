@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="utf-8"> 
+	<title>Igemutató</title>
+	<style>
+		html { width: 100%; text-align: center; }
+		body { width: 60%; margin: 20px auto; padding: 1em 3em; text-align: left; border: 1px solid #ddd; }
+		li { margin: 10px 0; }
+		th { text-align: left; }
+	</style>
+</head>
+<body>
+	<h1>Igemutató</h1>
+		
+	<h2>Működés</h2>
+	<p>A következő kódot kell beszúrni az oldal aljára (a &lt;/body&gt; elé):</p>
+	<pre><code>&lt;script&gt;<br/>var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br/>s = document.getElementsByTagName('script')[0],<br/>e = document.createElement('script');<br/>e.src = 'http://molnarm.github.io/igemutato.min.js';<br/>s.parentNode.insertBefore(e, s);<br/>&lt;/script&gt;</code></pre>
+	
+	<h2>Példák</h2>
+	<p>A kód ezen az oldalon is megtalálható, néhány példa:</p>
+	<ul>
+		<li>MTörv 30:11-14</li>
+		<li>Zsolt 23</li>
+		<li>Jn 1,1</li>
+	</ul>	
+	
+	<h2>Beállítások</h2>
+	<p>Az oldalba ágyazható igemutató egyelőre ugyanazokkal a beállításokkal rendelkezik, mint a bővítmények, a fent kiemelt <span style="color:blue;">config</span> objektumban adhatók meg:</p>
+	<table>
+		<tr><th>forditas</th><td>A használni kívánt fordítás, a lehetőségek: KNB, SZIT, UF, KG</td></tr>
+		<tr><th>tipW</th><td>A megjelenő szövegablak szélessége (px)</td></tr>
+		<tr><th>tipH</th><td>A megjelenő szövegablak magassága (px)</td></tr>
+		<tr><th>fontSize</th><td>Betűméret (px)</td></tr>
+		<tr><th>tipShow</th><td>Megjelenítési késleltetés (ms)</td></tr>
+		<tr><th>tipHide</th><td>Elrejtési késleltetés (ms)</td></tr>			
+		<tr><th>excludeTags</th><td>Azok a HTML tagek vesszővel elválasztva, amikben nem kell hivatkozásokat keresni</td></tr>
+	</table>
+	<p>Emellett saját CSS-t is lehet használni (az eredeti <a href="https://github.com/molnarm/igemutato/blob/master/igemutato.css">itt</a> elérhető):</p>
+	<ul>
+		<li>A megjelenő ablak felépítése a következő:
+			<pre><code>&lt;div id=&quot;igemutato&quot;&gt;<br/>	&lt;div class=&quot;szoveg&quot;&gt;Itt jelenik meg a szent&iacute;r&aacute;si sz&ouml;veg.&lt;/div&gt;<br/>	&lt;div class=&quot;igehely&quot;&gt;Itt tal&aacute;lhat&oacute; a hivatkoz&aacute;s.&lt;/div&gt;<br/>&lt;/div&gt;</code></pre>
+		</li>
+		<li>A felismert hivatkozások <i>.ige-link</i> osztályúak.</li>
+	</ul>
+	
+	<h2>Bővítmények</h2>
+	<p>A letölthető böngésző-bővítményekkel minden oldalon megjelennek a hivatkozások.</p>
+	<ul>
+		<li><a href="https://chrome.google.com/webstore/detail/szent%C3%ADr%C3%A1s/mooikajlieddnjlmlbodldompfifkoim">Chrome</a></li>
+		<li><a href="https://addons.mozilla.org/hu/firefox/addon/szentírás">Firefox</a></li>
+	</ul>
+	
+	<h2>Kapcsolat</h2>
+	<ul>
+		<li><a href="http://szentiras.hu">Szentírás.hu</a>, azon belül <a href="http://szentiras.hu/API">az API oldala</a></li>
+		<li><a href="https://github.com/molnarm/igemutato">Igemutató forráskód</a></li>
+		<li>Készítette: <a href="mailto:molnar.marton@gmail.com">Molnár Márton</a></li>
+	</ul>
+	
+	<script>
+	var igemutato = {config: {forditas: 'KNB'}},
+	s = document.getElementsByTagName('script')[0],
+	e = document.createElement('script');
+	e.src = 'http://molnarm.github.io/igemutato.min.js';
+	s.parentNode.insertBefore(e, s);
+	</script>
+</body>
+</html>
