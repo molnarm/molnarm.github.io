@@ -6,26 +6,34 @@
 	<style>
 		html { width: 100%; text-align: center; }
 		body { width: 60%; margin: 20px auto; padding: 1em 3em; text-align: left; border: 1px solid #ddd; }
-		li { margin: 10px 0; }
+		.nagy li { margin: 10px 0; }
 		th { text-align: left; }
 	</style>
 </head>
 <body>
-	<h1>Igemutató</h1>
+	<h1 id="top">Igemutató</h1>
+	
+	<ul style="list-style: none; padding: 0;">
+		<li><a href="#instructions">Működés</a></li>
+		<li><a href="#examples">Példák</a></li>
+		<li><a href="#settings">Beállítások</a></li>
+		<li><a href="#extensions">Bővítmények</a></li>
+		<li><a href="#contact">Kapcsolat</a></li>
+	</ul>
 		
-	<h2>Működés</h2>
+	<h2 id="instructions">Működés</h2>
 	<p>A következő kódot kell beszúrni az oldal aljára (a &lt;/body&gt; elé):</p>
 	<pre><code>&lt;script&gt;<br/>var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br/>s = document.getElementsByTagName('script')[0],<br/>e = document.createElement('script');<br/>e.src = 'http://molnarm.github.io/igemutato.min.js';<br/>s.parentNode.insertBefore(e, s);<br/>&lt;/script&gt;</code></pre>
 	
-	<h2>Példák</h2>
+	<h2 id="examples">Példák</h2>
 	<p>A kód ezen az oldalon is megtalálható, néhány példa:</p>
-	<ul>
+	<ul class="nagy">
 		<li>MTörv 30:11-14</li>
 		<li>Zsolt 23</li>
 		<li>Jn 1,1</li>
 	</ul>	
 	
-	<h2>Beállítások</h2>
+	<h2 id="settings">Beállítások</h2>
 	<p>Az oldalba ágyazható igemutató egyelőre ugyanazokkal a beállításokkal rendelkezik, mint a bővítmények, a fent kiemelt <span style="color:blue;">config</span> objektumban adhatók meg:</p>
 	<table>
 		<tr><th>forditas</th><td>A használni kívánt fordítás, a lehetőségek: KNB, SZIT, UF, KG</td></tr>
@@ -44,15 +52,16 @@
 		<li>A felismert hivatkozások <i>.ige-link</i> osztályúak.</li>
 	</ul>
 	
-	<h2>Bővítmények</h2>
+	<h2 id="extensions">Bővítmények</h2>
 	<p>A letölthető böngésző-bővítményekkel minden oldalon megjelennek a hivatkozások.</p>
 	<ul>
 		<li><a href="https://chrome.google.com/webstore/detail/szent%C3%ADr%C3%A1s/mooikajlieddnjlmlbodldompfifkoim">Chrome</a></li>
 		<li><a href="https://addons.mozilla.org/hu/firefox/addon/szentírás">Firefox</a></li>
 	</ul>
-	<p>WordPress plugin: <a href="https://github.com/molnarm/igemutato/tree/master/wordpress">ezt a könyvtárat</a> kell bemásolni a <i>wp-content/plugins</i> mappába. (Majd egyszer lesz kész ZIP fájl is feltöltve.)</p>
+	<p>WordPress plugin: <a href="https://github.com/molnarm/igemutato/tree/master/wordpress">ezt a könyvtárat</a> kell bemásolni a <i>wp-content/plugins</i> mappába. (Majd egyszer lesz kész ZIP fájl is feltöltve.) 
+	<b>Még nincs feltöltve a hivatalos bővítmények közé és nem frissül automatikusan!</b></p>
 	
-	<h2>Kapcsolat</h2>
+	<h2 id="contact">Kapcsolat</h2>
 	<ul>
 		<li><a href="http://szentiras.hu">Szentírás.hu</a>, azon belül <a href="http://szentiras.hu/API">az API oldala</a></li>
 		<li><a href="https://github.com/molnarm/igemutato">Igemutató forráskód</a></li>
@@ -60,7 +69,7 @@
 	</ul>
 	
 	<script>
-	var igemutato = {config: {forditas: 'KNB'}},
+	var igemutato = {config: {forditas: 'KNB', fontSize: 16}},
 	s = document.getElementsByTagName('script')[0],
 	e = document.createElement('script');
 	e.src = 'http://molnarm.github.io/igemutato.min.js';
