@@ -24,12 +24,12 @@
 	
 	<h2 id="news">Hírek</h2>
 	<ul>
-		<li>2014.06.22: A beállításoknál ki lehet kapcsolni a szövegformázást (KNB-nél hasznos).</li>
+		<li>2014.06.22: A böngésző-bővítmények felismerik, ha a beágyazható verzió megtalálható az oldalon, ilyenkor nem lépnek működésbe (<b>frissültek a bővítmények, a WordPress plugin is!</b>). A beállításoknál ki lehet kapcsolni a szövegformázást (KNB-nél hasznos).</li>
 	</ul>
 		
 	<h2 id="instructions">Működés</h2>
 	<p>A következő kódot kell beszúrni az oldal aljára (a &lt;/body&gt; elé):</p>
-	<pre><code>&lt;script&gt;<br/>var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br/>s = document.getElementsByTagName('script')[0],<br/>e = document.createElement('script');<br/>e.src = 'http://molnarm.github.io/igemutato.min.js';<br/>s.parentNode.insertBefore(e, s);<br/>&lt;/script&gt;</code></pre>
+	<pre><code>&lt;script&gt;<br/>var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br/>s = document.getElementsByTagName('script')[0],<br/>e = document.createElement('script');<br/>e.id = 'igemutato-script';<br/>e.src = 'http://molnarm.github.io/igemutato.min.js';<br/>s.parentNode.insertBefore(e, s);<br/>&lt;/script&gt;</code></pre>
 	
 	<h2 id="examples">Példák</h2>
 	<p>A kód ezen az oldalon is megtalálható, néhány példa:</p>
@@ -76,9 +76,10 @@
 	</ul>
 	
 	<script>
-	var igemutato = {config: {forditas: 'KNB', fontSize: 16}},
+	var igemutato = {config: {forditas: 'KNB', fontSize: 16, enableFormatting: false}},
 	s = document.getElementsByTagName('script')[0],
 	e = document.createElement('script');
+	e.id = 'igemutato-script';
 	e.src = 'http://molnarm.github.io/igemutato.min.js';
 	s.parentNode.insertBefore(e, s);
 	</script>
