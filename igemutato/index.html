@@ -7,42 +7,64 @@
 		html { width: 100%; text-align: center; }
 		body { width: 60%; margin: 20px auto; padding: 1em 3em; text-align: left; border: 1px solid #ddd; }
 		.nagy li { margin: 10px 0; }
+        .kep { list-style: none; }
+        .kep li { display: inline-block; width: 160px; margin: 5px; }
+        .kep img { border: 1px solid #333; }
 		th { text-align: left; }
+		ul { padding-left: 20px; }
+		h1, h2, h3 { margin-left: -20px; }
 	</style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="slimbox/slimbox2.js"></script>
 </head>
 <body>
 	<h1 id="top">Igemutató</h1>
 	
 	<ul style="list-style: none; padding: 0;">
 		<li><a href="#news">Hírek</a></li>
-		<li><a href="#instructions">Működés</a></li>
-		<li><a href="#examples">Példák</a></li>
-		<li><a href="#settings">Beállítások</a></li>
-		<li><a href="#extensions">Bővítmények</a></li>
+		<li><a href="#about">Mire jó?</a></li>
+		<li><a href="#screenshots">Képek</a></li>
+		<li><a href="#instructions">Hogyan használhatom?</a></li>
 		<li><a href="#contact">Kapcsolat</a></li>
 	</ul>
 	
 	<h2 id="news">Hírek</h2>
 	<ul>
+		<li>2014.06.29: Újabb javítások.</li>
 		<li>2014.06.28: Új design, Internet Explorer 8 támogatás, fordításváltás.</li>
 		<li>2014.06.23: A szövegbuborék pozíciója javítva. Nagyobb lett az alapértelmezett betűméret (16px).</li>
 		<li>2014.06.22: A böngésző-bővítmények felismerik, ha a beágyazható verzió megtalálható az oldalon, ilyenkor nem lépnek működésbe (<b>frissültek a bővítmények, a WordPress plugin is!</b>). A beállításoknál ki lehet kapcsolni a szövegformázást (KNB-nél hasznos).</li>
 	</ul>
-		
-	<h2 id="instructions">Működés</h2>
-	<p>A következő kódot kell beszúrni az oldal aljára (a &lt;/body&gt; elé):</p>
-	<pre><code>&lt;script&gt;<br/>var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br/>s = document.getElementsByTagName('script')[0],<br/>e = document.createElement('script');<br/>e.id = 'igemutato-script';<br/>e.src = 'http://molnarm.github.io/igemutato.min.js';<br/>s.parentNode.insertBefore(e, s);<br/>&lt;/script&gt;</code></pre>
-	
-	<h2 id="examples">Példák</h2>
-	<p>A kód ezen az oldalon is megtalálható, néhány példa:</p>
+    
+	<h2 id="about">Mire jó?</h2>
+    <p>Az Igemutató segítségével a weboldalak szövegében található szentírási hivatkozásokat (pl. Jn 1,1) nem kell "kézzel" kikeresni, elég, ha föléjük visszük az egeret és máris olvasható a megfelelő szöveg, az általunk kiválasztott fordításban - ezt a felugró szövegbuborék alján is megváltoztathatjuk, így a különböző fordítások is egyszerűen összehasonlíthatók. A hivatkozásra kattintva pedig a Szentírás.hu oldal nyílik meg, ahol a szöveg környezetét is tanulmányozhatjuk. </p>
+    <p>Néhány további példa, különféle formátumokkal:</p>
 	<ul class="nagy">
 		<li>MTörv 30:11-14</li>
+        <li> 1Kor 12,3b-7.12-13</li>
 		<li>Zsolt 23</li>
-		<li>Jn 1,1</li>
 	</ul>	
-	
-	<h2 id="settings">Beállítások</h2>
-	<p>Az oldalba ágyazható igemutató egyelőre ugyanazokkal a beállításokkal rendelkezik, mint a bővítmények, a fent kiemelt <span style="color:blue;">config</span> objektumban adhatók meg:</p>
+    
+	<h2 id="screenshots">Képek</h2>
+    <ul class="kep">
+        <li><a href="screenshots/common1.png" rel="lightbox-screenshot"><img src="screenshots/common1_small.png"/></a></li>
+        <li><a href="screenshots/common2.png" rel="lightbox-screenshot"><img src="screenshots/common2_small.png"/></a></li>
+        <li><a href="screenshots/firefox1.png" rel="lightbox-screenshot"><img src="screenshots/firefox1_small.png" title="Firefox beállítások"/></a></a></li>
+        <li><a href="screenshots/wordpress1.png" rel="lightbox-screenshot"><img src="screenshots/wordpress1_small.png" title="Wordpress beállítások"/></a></li>
+    </ul>
+		
+	<h2 id="instructions">Hogyan használhatom?</h2>
+    <h3>Felhasználóként</h3>
+    <p>Ha az szeretnénk, hogy minden általunk meglátogatott oldalon működjenek a hivatkozások, a következő böngésző-bővítmények valamelyikét kell telepíteni:</p>
+    <ul>
+        <li><a href="https://chrome.google.com/webstore/detail/szent%C3%ADr%C3%A1s/mooikajlieddnjlmlbodldompfifkoim">Chrome</a></li>
+        <li><a href="https://addons.mozilla.org/hu/firefox/addon/szentírás">Firefox</a></li>
+    </ul>
+
+    <h3>Webmesterként</h3>
+	<p>Ha egy általunk üzemeltetett oldalon szeretnénk mindenki számára elérhetővé tenni a funkciót, akkor semmi más dolgunk nincs, mint beszúrni a következő kódot az oldal aljára (a &lt;/body&gt; elé):</p>
+	<pre><code>&lt;script&gt;<br/>var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br/>s = document.getElementsByTagName('script')[0],<br/>e = document.createElement('script');<br/>e.id = 'igemutato-script';<br/>e.src = 'http://molnarm.github.io/igemutato.min.js';<br/>s.parentNode.insertBefore(e, s);<br/>&lt;/script&gt;</code></pre>
+	<p>A beállítások a fent kiemelt <span style="color:blue;">config</span> objektumban adhatók meg (egyik sem kötelező):</p>
 	<table>
 		<tr><th>forditas</th><td>A használni kívánt fordítás, a lehetőségek: KNB, SZIT, UF, KG</td></tr>
 		<tr><th>tipW</th><td>A megjelenő szövegablak szélessége (px)</td></tr>
@@ -53,21 +75,7 @@
 		<tr><th>excludeTags</th><td>Azok a HTML tagek vesszővel elválasztva, amikben nem kell hivatkozásokat keresni</td></tr>
 		<tr><th>enableFormatting</th><td>Szövegformázás engedélyezése (true/false)</td></tr>
 	</table>
-	<p>Emellett saját CSS-t is lehet használni (az eredeti <a href="https://github.com/molnarm/igemutato/blob/master/igemutato.css">itt</a> elérhető):</p>
-	<ul>
-		<li>A megjelenő ablak felépítése a következő:
-			<pre><code>&lt;div id=&quot;igemutato-tooltip&quot;&gt;<br/>	&lt;div class=&quot;szoveg&quot;&gt;Itt jelenik meg a szent&iacute;r&aacute;si sz&ouml;veg.&lt;/div&gt;<br/>	&lt;div class=&quot;igehely&quot;&gt;Itt tal&aacute;lhat&oacute; a hivatkoz&aacute;s.&lt;/div&gt;<br/>&lt;/div&gt;</code></pre>
-		</li>
-		<li>A felismert hivatkozások <i>.ige-link</i> osztályúak.</li>
-	</ul>
-	
-	<h2 id="extensions">Bővítmények</h2>
-	<p>A letölthető böngésző-bővítményekkel minden oldalon megjelennek a hivatkozások.</p>
-	<ul>
-		<li><a href="https://chrome.google.com/webstore/detail/szent%C3%ADr%C3%A1s/mooikajlieddnjlmlbodldompfifkoim">Chrome</a></li>
-		<li><a href="https://addons.mozilla.org/hu/firefox/addon/szentírás">Firefox</a></li>
-	</ul>
-	<p>WordPress plugin: <a href="https://github.com/molnarm/igemutato/tree/master/wordpress">ezt a könyvtárat</a> kell bemásolni a <i>wp-content/plugins</i> mappába. (Majd egyszer lesz kész ZIP fájl is feltöltve.) 
+    <p>WordPress plugin: <a href="https://github.com/molnarm/igemutato/tree/master/wordpress">ezt a könyvtárat</a> kell bemásolni a <i>wp-content/plugins</i> mappába. (Majd egyszer lesz kész ZIP fájl is feltöltve.) 
 	<b>Még nincs feltöltve a hivatalos bővítmények közé és nem frissül automatikusan!</b></p>
 	
 	<h2 id="contact">Kapcsolat</h2>
