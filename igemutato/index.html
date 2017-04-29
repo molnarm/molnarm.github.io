@@ -10,7 +10,7 @@
         .kep { list-style: none; }
         .kep li { display: inline-block; width: 160px; margin: 5px; }
         .kep img { border: 1px solid #333; }
-		th { text-align: left; }
+		th { text-align: left; border-width: 1px 0; border-color: #333; border-style: solid; }
 		ul { padding-left: 20px; }
 		h1, h2, h3 { margin-left: -20px; }
 	</style>
@@ -75,7 +75,17 @@
 	<pre><code>&lt;script&gt;<br/>var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br/>s = document.getElementsByTagName('script')[0],<br/>e = document.createElement('script');<br/>e.id = 'igemutato-script';<br/>e.src = 'http://molnarm.github.io/igemutato.min.js';<br/>s.parentNode.insertBefore(e, s);<br/>&lt;/script&gt;</code></pre>
 	<p>A beállítások a fent kiemelt <span style="color:blue;">config</span> objektumban adhatók meg (egyik sem kötelező):</p>
 	<table>
-		<tr><th>forditas</th><td>A használni kívánt fordítás, a lehetőségek: KNB, SZIT, UF, KG, BD</td></tr>
+		<tr><th>forditas</th><td>A használni kívánt fordítás, a lehetőségek (a Beállítás oszlop értékét kell használni):
+            <table>
+                <tr><th>Megjelenítendő fordítás</th><th>Beállítás</th></tr>
+                <tr><td>Káldi-Neovulgáta (katolikus)</td><td>KNB</td></tr>
+                <tr><td>Szent István Társulati Biblia (katolikus)</td><td>SZIT</td></tr>
+                <tr><td>Károli Gáspár revideált fordítása (protestáns)</td><td>KG</td></tr>
+                <tr><td>Magyar Bibliatársulat újfordítású Bibliája 1990 (protestáns)</td><td>UF</td></tr>
+                <tr><td>Magyar Bibliatársulat újfordítású Bibliája 2014 (protestáns)</td><td>RUF</td></tr>
+                <tr><td>Békés-Dalos Újszövetség</td><td>BD</td></tr>
+            </table>
+            </td></tr>
 		<tr><th>tipW</th><td>A megjelenő szövegablak szélessége (px)</td></tr>
 		<tr><th>tipH</th><td>A megjelenő szövegablak magassága (px)</td></tr>
 		<tr><th>fontSize</th><td>Betűméret (px)</td></tr>
