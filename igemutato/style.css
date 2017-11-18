@@ -1,0 +1,80 @@
+﻿html {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    background: #FCFBFB;
+}
+
+body {
+    width: 800px;
+    margin: 1em auto;
+    padding: 3em;
+    text-align: left;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.nagy li {
+    margin: 10px 0;
+}
+
+.kep {
+    list-style: none;
+}
+
+    .kep li {
+        display: inline-block;
+        width: 160px;
+        margin: 5px;
+    }
+
+    .kep img {
+        border: 1px solid #333;
+    }
+
+tr:nth-child(odd) {
+    background: #eee;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+h1, h2, h3 {
+    margin-left: -1em;
+}
+
+h1, h2, h3, #downloads a {
+    color: #660420;
+    font-family: 'Oxygen', 'Open Sans', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#downloads {
+    text-align: center;
+    margin: auto;
+}
+
+    #downloads a {
+        text-decoration: none;
+    }
+
+#icons {
+    list-style: none;
+}
+
+    #icons li {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+    }
+
+    #icons img {
+        width: 128px;
+        height: 128px;
+    }

@@ -1,115 +1,107 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>	
-	<meta charset="utf-8"> 
-	<title>Igemutató</title>
-	<style>
-		html { width: 100%; text-align: center; }
-		body { width: 60%; margin: 20px auto; padding: 1em 3em; text-align: left; border: 1px solid #ddd; }
-		.nagy li { margin: 10px 0; }
-        .kep { list-style: none; }
-        .kep li { display: inline-block; width: 160px; margin: 5px; }
-        .kep img { border: 1px solid #333; }
-		th { text-align: left; border-width: 1px 0; border-color: #333; border-style: solid; }
-		ul { padding-left: 20px; }
-		h1, h2, h3 { margin-left: -20px; }
-	</style>
-	<link rel="stylesheet" href="slimbox/slimbox2.css" type="text/css"/>
+<head>
+    <meta charset="utf-8">
+    <title>Igemutató</title>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:700|Open+Sans:400,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="slimbox/slimbox2.css" type="text/css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <script src="slimbox/slimbox2.js"></script>
 </head>
 <body>
-	<h1 id="top">Igemutató</h1>
-	
-	<ul style="list-style: none; padding: 0;">
-		<li><a href="#news">Hírek</a></li>
-		<li><a href="#about">Mire jó?</a></li>
-		<li><a href="#screenshots">Képek</a></li>
-		<li><a href="#instructions">Hogyan használhatom?</a></li>
-		<li><a href="#contact">Kapcsolat</a></li>
-	</ul>
-	
-	<h2 id="news">Hírek</h2>
-	<ul>
-        <li>2017.04.29: 1.3 verzió: BD és RUF fordítás minden platformon, számos hibajavítás (különösen Firefoxban)</li>
-		<li>2015.11.03 (még csak a beágyazott verzióban): Békés-Dalos fordítás, érthetőbb hibaüzenetek</li>
-		<li>2015.10.27: 1.2 verzió: új Firefox bővítmény SDK használata, hibajavítások</li>
-		<li>2015.10.11: 1.1 verzió: hibajavítások, a böngésző-bővítmények frissítése a legújabb eszközökkel</li>
-		<li>2014.07.03: 1.0 verzió, WordPress bővítmény.</li>
-		<li>2014.06.29: Újabb javítások.</li>
-		<li>2014.06.28: Új design, Internet Explorer 8 támogatás, fordításváltás.</li>
-		<li>2014.06.23: A szövegbuborék pozíciója javítva. Nagyobb lett az alapértelmezett betűméret (16px).</li>
-		<li>2014.06.22: A böngésző-bővítmények felismerik, ha a beágyazható verzió megtalálható az oldalon, ilyenkor nem lépnek működésbe (frissültek a bővítmények, a WordPress plugin is!). A beállításoknál ki lehet kapcsolni a szövegformázást (KNB-nél hasznos).</li>
-	</ul>
-    
-	<h2 id="about">Mire jó?</h2>
+    <h1 id="top">Igemutató</h1>
+
+    <h2 id="download">Letöltés</h2>
+    <div id="downloads">
+        <ul id="icons">
+            <li><a href="https://chrome.google.com/webstore/detail/szent%C3%ADr%C3%A1s/mooikajlieddnjlmlbodldompfifkoim?hl=hu"><img src="icons/chrome.png" alt="Chrome" />Chrome</a></li>
+            <li><a href="https://addons.mozilla.org/hu/firefox/addon/szent%C3%ADr%C3%A1s/"><img src="icons/firefox.png" alt="Firefox" />Firefox</a></li>
+            <li><a href=""><img src="icons/opera.png" alt="Opera" />Opera</a></li>
+            <li><a href="https://wordpress.org/plugins/igemutato/"><img src="icons/wordpress.png" alt="WordPress" />WordPress</a></li>
+        </ul>
+    </div>
+
+    <h2 id="about">Mire jó?</h2>
     <p>Az Igemutató segítségével a weboldalak szövegében található szentírási hivatkozásokat (pl. Jn 1,1) nem kell "kézzel" kikeresni, elég, ha föléjük visszük az egeret és máris olvasható a megfelelő szöveg, az általunk kiválasztott fordításban - ezt a felugró szövegbuborék alján is megváltoztathatjuk, így a különböző fordítások is egyszerűen összehasonlíthatók. A hivatkozásra kattintva pedig a Szentírás.hu oldal nyílik meg, ahol a szöveg környezetét is tanulmányozhatjuk. </p>
     <p>Néhány további példa, különféle formátumokkal:</p>
-	<ul class="nagy">
-		<li>MTörv 30:11-14</li>
+    <ul class="nagy">
+        <li>MTörv 30:11-14</li>
         <li> 1Kor 12,3b-7.12-13</li>
-		<li>Zsolt 23</li>
-	</ul>	
-    
-	<h2 id="screenshots">Képek</h2>
+        <li>Zsolt 23</li>
+    </ul>
+
+    <h2 id="screenshots">Képek</h2>
     <ul class="kep">
-        <li><a href="screenshots/common1.png" rel="lightbox-screenshot"><img src="screenshots/common1_small.png"/></a></li>
-        <li><a href="screenshots/common2.png" rel="lightbox-screenshot"><img src="screenshots/common2_small.png"/></a></li>
-        <li><a href="screenshots/firefox1.png" rel="lightbox-screenshot"><img src="screenshots/firefox1_small.png" title="Firefox beállítások"/></a></a></li>
-        <li><a href="screenshots/wordpress1.png" rel="lightbox-screenshot"><img src="screenshots/wordpress1_small.png" title="Wordpress beállítások"/></a></li>
+        <li><a href="screenshots/common1.png" rel="lightbox-screenshot"><img src="screenshots/common1_small.png" /></a></li>
+        <li><a href="screenshots/common2.png" rel="lightbox-screenshot"><img src="screenshots/common2_small.png" /></a></li>
+        <li><a href="screenshots/firefox1.png" rel="lightbox-screenshot"><img src="screenshots/firefox1_small.png" title="Firefox beállítások" /></a></a></li>
+        <li><a href="screenshots/wordpress1.png" rel="lightbox-screenshot"><img src="screenshots/wordpress1_small.png" title="Wordpress beállítások" /></a></li>
     </ul>
-		
-	<h2 id="instructions">Hogyan használhatom?</h2>
-    <h3>Felhasználóként</h3>
-    <p>Ha az szeretnénk, hogy minden általunk meglátogatott oldalon működjenek a hivatkozások, a következő böngésző-bővítmények valamelyikét kell telepíteni:</p>
+
+
+    <h2 id="news">Hírek</h2>
     <ul>
-        <li><a href="https://chrome.google.com/webstore/detail/szent%C3%ADr%C3%A1s/mooikajlieddnjlmlbodldompfifkoim">Chrome</a></li>
-        <li><a href="https://addons.mozilla.org/hu/firefox/addon/szentírás">Firefox</a></li>
+        <li>2017.11.18: 1.4 verzió: STL fordítás, Opera bővítmény, minden böngészőben azonos kód</li>
+        <li>2017.04.29: 1.3 verzió: BD és RUF fordítás minden platformon, számos hibajavítás (különösen Firefoxban)</li>
+        <li>2015.11.03 (még csak a beágyazott verzióban): Békés-Dalos fordítás, érthetőbb hibaüzenetek</li>
+        <li>2015.10.27: 1.2 verzió: új Firefox bővítmény SDK használata, hibajavítások</li>
+        <li>2015.10.11: 1.1 verzió: hibajavítások, a böngésző-bővítmények frissítése a legújabb eszközökkel</li>
+        <li>2014.07.03: 1.0 verzió, WordPress bővítmény.</li>
+        <li>2014.06.29: Újabb javítások.</li>
+        <li>2014.06.28: Új design, Internet Explorer 8 támogatás, fordításváltás.</li>
+        <li>2014.06.23: A szövegbuborék pozíciója javítva. Nagyobb lett az alapértelmezett betűméret (16px).</li>
+        <li>2014.06.22: A böngésző-bővítmények felismerik, ha a beágyazható verzió megtalálható az oldalon, ilyenkor nem lépnek működésbe (frissültek a bővítmények, a WordPress plugin is!). A beállításoknál ki lehet kapcsolni a szövegformázást (KNB-nél hasznos).</li>
     </ul>
-    
-    <h3>WordPress adminisztrátorként</h3>
+
+    <h2 id="instructions">Webmestereknek</h2>
+    <h3>WordPress</h3>
     <p>A bővítményt le lehet tölteni az adminisztrációs oldalon az "Igemutató" névre keresve, vagy pedig <a href="http://wordpress.org/plugins/igemutato/">innen</a>.</p>
 
-    <h3>Webmesterként</h3>
-	<p>Ha egy általunk üzemeltetett oldalon szeretnénk mindenki számára elérhetővé tenni a funkciót, akkor semmi más dolgunk nincs, mint beszúrni a következő kódot az oldal aljára (a &lt;/body&gt; elé):</p>
-	<pre><code>&lt;script&gt;<br/>var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br/>s = document.getElementsByTagName('script')[0],<br/>e = document.createElement('script');<br/>e.id = 'igemutato-script';<br/>e.src = 'http://molnarm.github.io/igemutato.min.js';<br/>s.parentNode.insertBefore(e, s);<br/>&lt;/script&gt;</code></pre>
-	<p>A beállítások a fent kiemelt <span style="color:blue;">config</span> objektumban adhatók meg (egyik sem kötelező):</p>
-	<table>
-		<tr><th>forditas</th><td>A használni kívánt fordítás, a lehetőségek (a Beállítás oszlop értékét kell használni):
-            <table>
-                <tr><th>Megjelenítendő fordítás</th><th>Beállítás</th></tr>
-                <tr><td>Káldi-Neovulgáta (katolikus)</td><td>KNB</td></tr>
-                <tr><td>Szent István Társulati Biblia (katolikus)</td><td>SZIT</td></tr>
-                <tr><td>Károli Gáspár revideált fordítása (protestáns)</td><td>KG</td></tr>
-                <tr><td>Magyar Bibliatársulat újfordítású Bibliája 1990 (protestáns)</td><td>UF</td></tr>
-                <tr><td>Magyar Bibliatársulat újfordítású Bibliája 2014 (protestáns)</td><td>RUF</td></tr>
-                <tr><td>Békés-Dalos Újszövetség</td><td>BD</td></tr>
-            </table>
-            </td></tr>
-		<tr><th>tipW</th><td>A megjelenő szövegablak szélessége (px)</td></tr>
-		<tr><th>tipH</th><td>A megjelenő szövegablak magassága (px)</td></tr>
-		<tr><th>fontSize</th><td>Betűméret (px)</td></tr>
-		<tr><th>tipShow</th><td>Megjelenítési késleltetés (ms)</td></tr>
-		<tr><th>tipHide</th><td>Elrejtési késleltetés (ms)</td></tr>			
-		<tr><th>excludeTags</th><td>Azok a HTML tagek vesszővel elválasztva, amikben nem kell hivatkozásokat keresni</td></tr>
-		<tr><th>enableFormatting</th><td>Szövegformázás engedélyezése (true/false)</td></tr>
-		<tr><th>showNumbers</th><td>Versszámozás megjelenítése/elrejtése (true/false)</td></tr>
-	</table>
-	
-	<h2 id="contact">Kapcsolat</h2>
-	<ul>
-		<li><a href="http://szentiras.hu">Szentírás.hu</a>, azon belül <a href="http://szentiras.hu/API">az API oldala</a></li>
-		<li><a href="https://github.com/molnarm/igemutato">Igemutató forráskód</a></li>
-		<li>Készítette: <a href="mailto:molnar.marton@gmail.com">Molnár Márton</a></li>
-	</ul>
-	
-	<script>
-	var igemutato = {config: {forditas: 'KNB', fontSize: 16, enableFormatting: false}},
-	s = document.getElementsByTagName('script')[0],
-	e = document.createElement('script');
-	e.id = 'igemutato-script';
-	e.src = 'http://molnarm.github.io/igemutato.min.js';
-	s.parentNode.insertBefore(e, s);
-	</script>
+    <h3>Más honlapok</h3>
+    <p>Ha egy általunk üzemeltetett oldalon szeretnénk mindenki számára elérhetővé tenni a funkciót, akkor semmi más dolgunk nincs, mint beszúrni a következő kódot az oldal aljára (a &lt;/body&gt; elé):</p>
+    <pre><code>&lt;script&gt;<br />var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br />s = document.getElementsByTagName('script')[0],<br />e = document.createElement('script');<br />e.id = 'igemutato-script';<br />e.src = 'http://molnarm.github.io/igemutato.min.js';<br />s.parentNode.insertBefore(e, s);<br />&lt;/script&gt;</code></pre>
+    <p>A beállítások a fent kiemelt <span style="color:blue;">config</span> objektumban adhatók meg (egyik sem kötelező):</p>
+    <table>
+        <tr>
+            <th>forditas</th>
+            <td>
+                A használni kívánt fordítás, a lehetőségek (a Beállítás oszlop értékét kell használni):
+                <table>
+                    <tr><th>Megjelenítendő fordítás</th><th>Beállítás</th></tr>
+                    <tr><td>Káldi-Neovulgáta (katolikus)</td><td>KNB</td></tr>
+                    <tr><td>Szent István Társulati Biblia (katolikus)</td><td>SZIT</td></tr>
+                    <tr><td>Károli Gáspár revideált fordítása (protestáns)</td><td>KG</td></tr>
+                    <tr><td>Magyar Bibliatársulat újfordítású Bibliája 1990 (protestáns)</td><td>UF</td></tr>
+                    <tr><td>Magyar Bibliatársulat újfordítású Bibliája 2014 (protestáns)</td><td>RUF</td></tr>
+                    <tr><td>Békés-Dalos Újszövetség</td><td>BD</td></tr>
+                </table>
+            </td>
+        </tr>
+        <tr><th>tipW</th><td>A megjelenő szövegablak szélessége (px)</td></tr>
+        <tr><th>tipH</th><td>A megjelenő szövegablak magassága (px)</td></tr>
+        <tr><th>fontSize</th><td>Betűméret (px)</td></tr>
+        <tr><th>tipShow</th><td>Megjelenítési késleltetés (ms)</td></tr>
+        <tr><th>tipHide</th><td>Elrejtési késleltetés (ms)</td></tr>
+        <tr><th>excludeTags</th><td>Azok a HTML tagek vesszővel elválasztva, amikben nem kell hivatkozásokat keresni</td></tr>
+        <tr><th>enableFormatting</th><td>Szövegformázás engedélyezése (true/false)</td></tr>
+        <tr><th>showNumbers</th><td>Versszámozás megjelenítése/elrejtése (true/false)</td></tr>
+    </table>
+
+    <h2 id="contact">Kapcsolat</h2>
+    <ul>
+        <li><a href="http://szentiras.hu">Szentírás.hu</a>, azon belül <a href="http://szentiras.hu/API">az API oldala</a></li>
+        <li><a href="https://github.com/molnarm/igemutato">Igemutató forráskód</a></li>
+        <li>Készítette: <a href="mailto:molnar.marton@gmail.com">Molnár Márton</a></li>
+    </ul>
+
+    <script>
+        var igemutato = { config: { forditas: 'KNB', fontSize: 16, enableFormatting: false } },
+            s = document.getElementsByTagName('script')[0],
+            e = document.createElement('script');
+        e.id = 'igemutato-script';
+        e.src = 'http://molnarm.github.io/igemutato.min.js';
+        s.parentNode.insertBefore(e, s);
+    </script>
 </body>
 </html>
