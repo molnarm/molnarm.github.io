@@ -1,0 +1,16 @@
+﻿html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body, html {
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+}
+
+#terkep {
+    height: 100%;
+    width: 100%;
+}
