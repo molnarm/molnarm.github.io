@@ -36,7 +36,7 @@ function addUtvonal(layerControl) {
 
     for (var i = 0; i < files.length; i++) {
         var file = files[i];
-        layers.push(new L.GPX('/gpx/' + file, { async: true }));
+        layers.push(new L.GPX('gpx/' + file, { async: true }));
     }
 
     var layerGroup = L.layerGroup(layers);
