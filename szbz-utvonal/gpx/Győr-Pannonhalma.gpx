@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:szbz="http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:szbz="http://molnarm.github.io/szbz-utvonal" szbz:schemaLocation="http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
 	<metadata>
 		<name>GPS_2018-02-10_112700</name>
 		<time>2018-02-10T11:27:00Z</time><bounds minlat="47.55233300" minlon="17.63296800" maxlat="47.68791300" maxlon="17.76236400"/>
