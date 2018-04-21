@@ -49,13 +49,17 @@ function addSegment(eventData) {
   if (extensionsElements.length === 0)
     return;
 
-  var extensions = extensionsElements[0];
   var namespace = "http://molnarm.github.io/szbz-utvonal";
+  var szbzElements = extensionsElements[0].getElementsByTagNameNS(namespace, "szbz");
+  if (szbzElements.length === 0)
+    return;
+
+  var szbz = szbzElements[0];
   var tags = ["id", "title", "description", "from", "to", "sign", "type"];
   var data = {};
 
   for (var i = 0; i < tags.length; i++) {
-    var elements = extensions.getElementsByTagNameNS(namespace, tags[i]);
+    var elements = szbz.getElementsByTagNameNS(namespace, tags[i]);
     if (elements.length === 1)
       data[tags[i]] = elements[0].textContent;
   }

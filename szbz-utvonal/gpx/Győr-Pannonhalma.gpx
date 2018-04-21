@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:szbz="http://molnarm.github.io/szbz-utvonal"
- xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Győr-Pannonhalma</name>
     <bounds minlat="47.55233300" minlon="17.63296800" maxlat="47.68791300" maxlon="17.76236400"/>
@@ -23,13 +22,15 @@
         <time>2018-02-10T11:28:42Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>101</szbz:id>
-        <szbz:title>Széchenyi tér</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Szent Mór bencés perjelség</szbz:from>
-        <szbz:to>Baross utca</szbz:to>
-        <szbz:sign></szbz:sign>
-        <szbz:type>sétálóutca</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>101</id>
+          <title>Széchenyi tér</title>
+          <description></description>
+          <from>Szent Mór bencés perjelség</from>
+          <to>Baross utca</to>
+          <sign></sign>
+          <type>sétálóutca</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -58,13 +59,15 @@
         <time>2018-02-10T11:33:29Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>102</szbz:id>
-        <szbz:title>Baross utca</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Kazinczy utca</szbz:from>
-        <szbz:to>Szent István út</szbz:to>
-        <szbz:sign>SGy</szbz:sign>
-        <szbz:type>sétálóutca</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>102</id>
+          <title>Baross utca</title>
+          <description></description>
+          <from>Kazinczy utca</from>
+          <to>Szent István út</to>
+          <sign>SGy</sign>
+          <type>sétálóutca</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -601,13 +604,15 @@
         <time>2018-02-10T12:40:40Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>103</szbz:id>
-        <szbz:title>Győr</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Szent István út</szbz:from>
-        <szbz:to>Sági út</szbz:to>
-        <szbz:sign></szbz:sign>
-        <szbz:type>járda</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>103</id>
+          <title>Győr</title>
+          <description></description>
+          <from>Szent István út</from>
+          <to>Sági út</to>
+          <sign></sign>
+          <type>járda</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -672,13 +677,15 @@
         <time>2018-02-10T13:04:04Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>104</szbz:id>
-        <szbz:title>8222-es út</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Kismegyer</szbz:from>
-        <szbz:to>M1 felüljáró után</szbz:to>
-        <szbz:sign></szbz:sign>
-        <szbz:type>úttest</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>104</id>
+          <title>8222-es út</title>
+          <description></description>
+          <from>Kismegyer</from>
+          <to>M1 felüljáró után</to>
+          <sign></sign>
+          <type>úttest</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -755,13 +762,15 @@
         <time>2018-02-10T13:16:49Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>105</szbz:id>
-        <szbz:title>földút</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>8222-es út</szbz:from>
-        <szbz:to>Pándzsa-híd</szbz:to>
-        <szbz:sign></szbz:sign>
-        <szbz:type>földút</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>105</id>
+          <title>földút</title>
+          <description></description>
+          <from>8222-es út</from>
+          <to>Pándzsa-híd</to>
+          <sign></sign>
+          <type>földút</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -982,13 +991,15 @@
         <time>2018-02-10T13:52:24Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>106</szbz:id>
-        <szbz:title>Pándzsa</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Pándzsa-híd</szbz:from>
-        <szbz:to>Pándzsa-híd</szbz:to>
-        <szbz:sign></szbz:sign>
-        <szbz:type>földút</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>106</id>
+          <title>Pándzsa</title>
+          <description></description>
+          <from>Pándzsa-híd</from>
+          <to>Pándzsa-híd</to>
+          <sign></sign>
+          <type>földút</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -1237,13 +1248,15 @@
         <time>2018-02-10T14:53:47Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>107</szbz:id>
-        <szbz:title>Győrsági földek</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Pándzsa-híd</szbz:from>
-        <szbz:to>Győrság</szbz:to>
-        <szbz:sign></szbz:sign>
-        <szbz:type>földút</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>107</id>
+          <title>Győrsági földek</title>
+          <description></description>
+          <from>Pándzsa-híd</from>
+          <to>Győrság</to>
+          <sign></sign>
+          <type>földút</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -1288,13 +1301,15 @@
         <time>2018-02-10T15:02:45Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>108</szbz:id>
-        <szbz:title>Győrság</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Győrság, Vörösmarty utca</szbz:from>
-        <szbz:to>Győrság, Öreg utca</szbz:to>
-        <szbz:sign></szbz:sign>
-        <szbz:type>úttest</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>108</id>
+          <title>Győrság</title>
+          <description></description>
+          <from>Győrság, Vörösmarty utca</from>
+          <to>Győrság, Öreg utca</to>
+          <sign></sign>
+          <type>úttest</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -1371,13 +1386,15 @@
         <time>2018-02-10T15:13:18Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>109</szbz:id>
-        <szbz:title>Győrság</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Győrság, Öreg utca</szbz:from>
-        <szbz:to>Győrság, Öreg utca</szbz:to>
-        <szbz:sign>S+</szbz:sign>
-        <szbz:type>úttest</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>109</id>
+          <title>Győrság</title>
+          <description></description>
+          <from>Győrság, Öreg utca</from>
+          <to>Győrság, Öreg utca</to>
+          <sign>S+</sign>
+          <type>úttest</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -1542,13 +1559,15 @@
         <time>2018-02-10T15:25:39Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>110</szbz:id>
-        <szbz:title>Győrsági domb</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Győrság, Öreg utca</szbz:from>
-        <szbz:to>Győrság, Ámánd utca</szbz:to>
-        <szbz:sign>S+</szbz:sign>
-        <szbz:type>földút</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>110</id>
+          <title>Győrsági domb</title>
+          <description></description>
+          <from>Győrság, Öreg utca</from>
+          <to>Győrság, Ámánd utca</to>
+          <sign>S+</sign>
+          <type>földút</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -1609,13 +1628,15 @@
         <time>2018-02-10T15:32:24Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>111</szbz:id>
-        <szbz:title>Győrság</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Győrság, Ámánd utca</szbz:from>
-        <szbz:to>Győrság, Kossuth utca</szbz:to>
-        <szbz:sign>S+</szbz:sign>
-        <szbz:type>kavics</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>111</id>
+          <title>Győrság</title>
+          <description></description>
+          <from>Győrság, Ámánd utca</from>
+          <to>Győrság, Kossuth utca</to>
+          <sign>S+</sign>
+          <type>kavics</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -1764,13 +1785,15 @@
         <time>2018-02-10T15:44:29Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>112</szbz:id>
-        <szbz:title>Győrsági dombok</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Győrság, Kossuth utca</szbz:from>
-        <szbz:to>Pannonhalma, Tóthegy</szbz:to>
-        <szbz:sign>S+</szbz:sign>
-        <szbz:type>földút</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>112</id>
+          <title>Győrsági dombok</title>
+          <description></description>
+          <from>Győrság, Kossuth utca</from>
+          <to>Pannonhalma, Tóthegy</to>
+          <sign>S+</sign>
+          <type>földút</type>
+        </szbz>
       </extensions>
     </trkseg>
     <trkseg>
@@ -1851,13 +1874,15 @@
         <time>2018-02-10T15:51:25Z</time>
       </trkpt>
       <extensions>
-        <szbz:id>113</szbz:id>
-        <szbz:title>Pannonhalma, szerpentin</szbz:title>
-        <szbz:description></szbz:description>
-        <szbz:from>Pannonhalma, tóthegy</szbz:from>
-        <szbz:to>Pannonhalmi Bencés Főapátság</szbz:to>
-        <szbz:sign>S</szbz:sign>
-        <szbz:type>úttest</szbz:type>
+        <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+          <id>113</id>
+          <title>Pannonhalma, szerpentin</title>
+          <description></description>
+          <from>Pannonhalma, tóthegy</from>
+          <to>Pannonhalmi Bencés Főapátság</to>
+          <sign>S</sign>
+          <type>úttest</type>
+        </szbz>
       </extensions>
     </trkseg>
   </trk>
