@@ -62,9 +62,14 @@ function addSegment(eventData) {
     var elements = szbz.getElementsByTagNameNS(namespace, tags[i]);
     if (elements.length === 1)
       data[tags[i]] = elements[0].textContent;
+    else
+      data[tags[i]] = "";
   }
 
-  eventData.line.setStyle({ color: getColor(data.sign) });
+  eventData.line.setStyle({
+     color: getColor(data.sign),
+     weight: 5
+  });
   eventData.line.bindPopup(
     "<b>" + data.title + "</b> (" + data.id + ")<br />" +
     data.description + "<br />" +
@@ -75,7 +80,7 @@ function addSegment(eventData) {
 }
 
 function getColor(sign) {
-  var defaultColor = "#FF8C00";
+  var defaultColor = "#AFEEEE";
 
   if (!sign || sign.length === 0)
     return defaultColor;
