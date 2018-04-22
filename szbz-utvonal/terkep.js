@@ -3,98 +3,119 @@
 setupLayers(map);
 
 function setupLayers(map) {
-  var roadmap = new L.gridLayer.googleMutant({ type: 'roadmap' }),
-    satellite = new L.gridLayer.googleMutant({ type: 'satellite' }),
-    hybrid = new L.gridLayer.googleMutant({ type: 'hybrid' }),
-    terrain = L.gridLayer.googleMutant({ type: 'terrain' });
+    var roadmap = new L.gridLayer.googleMutant({ type: 'roadmap' }),
+        satellite = new L.gridLayer.googleMutant({ type: 'satellite' }),
+        hybrid = new L.gridLayer.googleMutant({ type: 'hybrid' }),
+        terrain = L.gridLayer.googleMutant({ type: 'terrain' });
 
-  var baseMaps = {
-    'Térkép': roadmap,
-    'Műhold': satellite,
-    'Hibrid': hybrid,
-    'Domborzat': terrain
-  };
+    var baseMaps = {
+        'Térkép': roadmap,
+        'Műhold': satellite,
+        'Hibrid': hybrid,
+        'Domborzat': terrain
+    };
 
-  var turaterkep = L.tileLayer('//{s}.map.turistautak.hu/tiles/lines/{z}/{x}/{y}.png', {
-    attribution: '<a href="http://turistautak.hu">turistautak.hu</a>',
-    minZoom: 8,
-    maxZoom: 21,
-    subdomains: 'abcd'
-  });
+    var turaterkep = L.tileLayer('//{s}.map.turistautak.hu/tiles/lines/{z}/{x}/{y}.png', {
+        attribution: '<a href="http://turistautak.hu">turistautak.hu</a>',
+        minZoom: 8,
+        maxZoom: 21,
+        subdomains: 'abcd'
+    });
 
-  var layerControl = new L.Control.Layers(baseMaps, { 'Turistautak': turaterkep }, { collapsed: false });
-  map.addControl(layerControl);
+    var layerControl = new L.Control.Layers(baseMaps, { 'Turistautak': turaterkep }, { collapsed: false });
+    map.addControl(layerControl);
 
-  map.addLayer(satellite);
+    map.addLayer(satellite);
 
-  addUtvonal(layerControl);
+    addUtvonal(layerControl);
 }
 
 function addUtvonal(layerControl) {
-  var files = ["Győr-Pannonhalma.gpx", "Pannonhalma-Bakonyszentlászló.gpx", "Bakonyszentlászló-Bakonybél.gpx", "Bakonybél-Veszprém.gpx", "Veszprém-Tótvázsony.gpx", "Tótvázsony-Tihany.gpx"];
-  var layers = [];
+    var files = [
+        "Győr-Pannonhalma.gpx",
+        "Pannonhalma-Bakonyszentlászló.gpx",
+        "Bakonyszentlászló-Bakonybél (Kőris).gpx",
+        "Bakonyszentlászló-Bakonybél (Zirc).gpx",
+        "Bakonybél-Veszprém.gpx",
+        "Veszprém-Tótvázsony.gpx",
+        "Tótvázsony-Tihany.gpx"
+    ];
+    var layers = [];
 
-  for (var i = 0; i < files.length; i++) {
-    var file = files[i];
-    layers.push(new L.GPX('gpx/' + file, { async: true }).on("addline", addSegment));
-  }
+    for (var i = 0; i < files.length; i++) {
+        var file = files[i];
+        layers.push(new L.GPX('gpx/' + file, { async: true }).on("addline", addSegment));
+    }
 
-  var layerGroup = L.layerGroup(layers);
-  layerControl.addOverlay(layerGroup, 'Útvonal');
-  map.addLayer(layerGroup);
+    var layerGroup = L.layerGroup(layers);
+    layerControl.addOverlay(layerGroup, 'Útvonal');
+    map.addLayer(layerGroup);
 }
 
 function addSegment(eventData) {
-  var extensionsElements = eventData.element.getElementsByTagName("extensions");
-  if (extensionsElements.length === 0)
-    return;
+    var style = {
+        color: "#AFEEEE",
+        weight: 5
+    };
 
-  var namespace = "http://molnarm.github.io/szbz-utvonal";
-  var szbzElements = extensionsElements[0].getElementsByTagNameNS(namespace, "szbz");
-  if (szbzElements.length === 0)
-    return;
+    var extensionsElements = eventData.element.getElementsByTagName("extensions");
+    if (extensionsElements.length !== 0) {
+        var namespace = "http://molnarm.github.io/szbz-utvonal";
+        var szbzElements = extensionsElements[0].getElementsByTagNameNS(namespace, "szbz");
+        if (szbzElements.length !== 0) {
+            var szbz = szbzElements[0];
+            var tags = ["id", "title", "description", "from", "to", "sign", "type"];
+            var data = {};
 
-  var szbz = szbzElements[0];
-  var tags = ["id", "title", "description", "from", "to", "sign", "type"];
-  var data = {};
+            for (var i = 0; i < tags.length; i++) {
+                var elements = szbz.getElementsByTagNameNS(namespace, tags[i]);
+                if (elements.length === 1)
+                    data[tags[i]] = elements[0].textContent;
+                else
+                    data[tags[i]] = "";
+            }
 
-  for (var i = 0; i < tags.length; i++) {
-    var elements = szbz.getElementsByTagNameNS(namespace, tags[i]);
-    if (elements.length === 1)
-      data[tags[i]] = elements[0].textContent;
-    else
-      data[tags[i]] = "";
-  }
+            var color = getColor(data.sign);
+            if (color)
+                style.color = color;
+            eventData.line.bindPopup(
+                "<b>" +
+                data.title +
+                "</b> (" +
+                data.id +
+                ")<br />" +
+                data.description +
+                "<br />" +
+                data.from +
+                " - " +
+                data.to +
+                "<br />" +
+                "Jelzés: " +
+                data.sign +
+                "<br />" +
+                "Típus: " +
+                data.type
+            );
+        }
+    }
 
-  eventData.line.setStyle({
-     color: getColor(data.sign),
-     weight: 5
-  });
-  eventData.line.bindPopup(
-    "<b>" + data.title + "</b> (" + data.id + ")<br />" +
-    data.description + "<br />" +
-    data.from + " - " + data.to + "<br />" +
-    "Jelzés: " + data.sign + "<br />" +
-    "Típus: " + data.type
-  );
+    eventData.line.setStyle(style);
 }
 
 function getColor(sign) {
-  var defaultColor = "#AFEEEE";
+    if (!sign || sign.length === 0)
+        return null;
 
-  if (!sign || sign.length === 0)
-    return defaultColor;
+    var c = sign[0].toUpperCase();
+    var colors = {
+        "K": "#0000FF",
+        "Z": "#008000",
+        "P": "#FF0000",
+        "S": "#FFFF00",
+        "L": "#800080"
+    }
+    if (colors.hasOwnProperty(c))
+        return colors[c];
 
-  var c = sign[0].toUpperCase();
-  var colors = {
-    "K": "#0000FF",
-    "Z": "#008000",
-    "P": "#FF0000",
-    "S": "#FFFF00",
-    "L": "#800080"
-  }
-  if (colors.hasOwnProperty(c))
-    return colors[c];
-
-  return defaultColor;
+    return null;
 }
