@@ -75,9 +75,7 @@ function addSegment(eventData) {
                     data[tags[i]] = "";
             }
 
-            var color = getColor(data.sign);
-            if (color)
-                style.color = color;
+            applyStyle(style, data.sign);
             eventData.line.bindPopup(
                 "<b>" +
                 data.title +
@@ -102,11 +100,15 @@ function addSegment(eventData) {
     eventData.line.setStyle(style);
 }
 
-function getColor(sign) {
+function applyStyle(style, sign) {
     if (!sign || sign.length === 0)
-        return null;
+        return;
 
-    var c = sign[0].toUpperCase();
+    var c = sign[0];
+    if (c === c.toLowerCase())
+        style.dashArray = "5 10";
+
+    var jelzes = c.toUpperCase();
     var colors = {
         "K": "#0000FF",
         "Z": "#008000",
@@ -114,8 +116,6 @@ function getColor(sign) {
         "S": "#FFFF00",
         "L": "#800080"
     }
-    if (colors.hasOwnProperty(c))
-        return colors[c];
-
-    return null;
+    if (colors.hasOwnProperty(jelzes))
+        style.color = colors[jelzes];
 }
