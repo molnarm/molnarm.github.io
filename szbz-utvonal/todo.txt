@@ -1,0 +1,10 @@
+- adatok feltöltése
+  - jelöltség, burkolat szerint darabolva
+    - jelölések fontossági sorrendjét ellenõrizni pl. Z,P+
+  - eltérések a csoportos útvonaltól
+    - napi szakaszok eleje/vége!
+- szakaszok tulajdonságai:
+  - leírás, cím, honnan hová
+  - domborzati profil
+- összesített tulajdonságok, statisztika
+- jelzés ikonok?
