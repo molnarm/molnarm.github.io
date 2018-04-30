@@ -8,38 +8,55 @@
         <name>Tótvázsony-Tihany</name>
         <trkseg>
             <trkpt lat="47.00957100" lon="17.79114000">
+                <ele>323.50000000</ele>
             </trkpt>
             <trkpt lat="47.00945900" lon="17.79121600">
+                <ele>324.13000000</ele>
             </trkpt>
             <trkpt lat="47.00932100" lon="17.79073400">
+                <ele>322.06000000</ele>
             </trkpt>
             <trkpt lat="47.00921900" lon="17.79066600">
+                <ele>321.88000000</ele>
             </trkpt>
             <trkpt lat="47.00888000" lon="17.79092200">
+                <ele>322.74000000</ele>
             </trkpt>
             <trkpt lat="47.00847100" lon="17.79109300">
+                <ele>322.58000000</ele>
             </trkpt>
             <trkpt lat="47.00827600" lon="17.79115400">
+                <ele>322.45000000</ele>
             </trkpt>
             <trkpt lat="47.00792400" lon="17.79111500">
+                <ele>321.69000000</ele>
             </trkpt>
             <trkpt lat="47.00749900" lon="17.79116400">
+                <ele>321.19000000</ele>
             </trkpt>
             <trkpt lat="47.00733600" lon="17.79096200">
+                <ele>321.59000000</ele>
             </trkpt>
             <trkpt lat="47.00696100" lon="17.79031700">
+                <ele>322.86000000</ele>
             </trkpt>
             <trkpt lat="47.00633700" lon="17.78916600">
+                <ele>325.98000000</ele>
             </trkpt>
             <trkpt lat="47.00608200" lon="17.78868100">
+                <ele>326.87000000</ele>
             </trkpt>
             <trkpt lat="47.00471100" lon="17.79026000">
+                <ele>336.22000000</ele>
             </trkpt>
             <trkpt lat="47.00421100" lon="17.79085000">
+                <ele>339.88000000</ele>
             </trkpt>
             <trkpt lat="47.00388000" lon="17.79137000">
+                <ele>342.08000000</ele>
             </trkpt>
             <trkpt lat="47.00270100" lon="17.79285000">
+                <ele>349.18000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -55,8 +72,10 @@
         </trkseg>
         <trkseg>
             <trkpt lat="47.00270100" lon="17.79285000">
+                <ele>349.18000000</ele>
             </trkpt>
             <trkpt lat="47.00062300" lon="17.79538600">
+                <ele>355.03000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -72,40 +91,58 @@
         </trkseg>
         <trkseg>
             <trkpt lat="47.00062300" lon="17.79538600">
+                <ele>355.03000000</ele>
             </trkpt>
             <trkpt lat="47.00047400" lon="17.79538600">
+                <ele>355.48000000</ele>
             </trkpt>
             <trkpt lat="47.00001900" lon="17.79572000">
+                <ele>357.68000000</ele>
             </trkpt>
             <trkpt lat="46.99950800" lon="17.79608400">
+                <ele>361.10000000</ele>
             </trkpt>
             <trkpt lat="46.99913600" lon="17.79618200">
+                <ele>362.77000000</ele>
             </trkpt>
             <trkpt lat="46.99846200" lon="17.79642400">
+                <ele>365.77000000</ele>
             </trkpt>
             <trkpt lat="46.99789900" lon="17.79667900">
+                <ele>369.12000000</ele>
             </trkpt>
             <trkpt lat="46.99658500" lon="17.79704000">
+                <ele>372.15000000</ele>
             </trkpt>
             <trkpt lat="46.99628000" lon="17.79716300">
+                <ele>371.86000000</ele>
             </trkpt>
             <trkpt lat="46.99577000" lon="17.79744500">
+                <ele>371.80000000</ele>
             </trkpt>
             <trkpt lat="46.99544800" lon="17.79752500">
+                <ele>372.01000000</ele>
             </trkpt>
             <trkpt lat="46.99515200" lon="17.79751400">
+                <ele>372.01000000</ele>
             </trkpt>
             <trkpt lat="46.99432600" lon="17.79788900">
+                <ele>371.61000000</ele>
             </trkpt>
             <trkpt lat="46.99381500" lon="17.79805200">
+                <ele>373.11000000</ele>
             </trkpt>
             <trkpt lat="46.99265200" lon="17.79856300">
+                <ele>376.56000000</ele>
             </trkpt>
             <trkpt lat="46.99195800" lon="17.79885800">
+                <ele>376.20000000</ele>
             </trkpt>
             <trkpt lat="46.99140600" lon="17.79903600">
+                <ele>375.11000000</ele>
             </trkpt>
             <trkpt lat="46.98988200" lon="17.79922500">
+                <ele>379.86000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -121,10 +158,13 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.98988200" lon="17.79922500">
+                <ele>379.86000000</ele>
             </trkpt>
             <trkpt lat="46.98962600" lon="17.79912400">
+                <ele>380.64000000</ele>
             </trkpt>
             <trkpt lat="46.98921800" lon="17.79882900">
+                <ele>381.17000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -140,118 +180,175 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.98921800" lon="17.79882900">
+                <ele>381.17000000</ele>
             </trkpt>
             <trkpt lat="46.98783100" lon="17.79904000">
+                <ele>381.55000000</ele>
             </trkpt>
             <trkpt lat="46.98733900" lon="17.79921000">
+                <ele>382.28000000</ele>
             </trkpt>
             <trkpt lat="46.98640100" lon="17.79910100">
+                <ele>377.53000000</ele>
             </trkpt>
             <trkpt lat="46.98588200" lon="17.79922300">
+                <ele>373.74000000</ele>
             </trkpt>
             <trkpt lat="46.98561700" lon="17.79932300">
+                <ele>370.54000000</ele>
             </trkpt>
             <trkpt lat="46.98504200" lon="17.80014700">
+                <ele>367.86000000</ele>
             </trkpt>
             <trkpt lat="46.98474900" lon="17.80077000">
+                <ele>364.35000000</ele>
             </trkpt>
             <trkpt lat="46.98444000" lon="17.80118900">
+                <ele>358.49000000</ele>
             </trkpt>
             <trkpt lat="46.98425800" lon="17.80167200">
+                <ele>354.60000000</ele>
             </trkpt>
             <trkpt lat="46.98422000" lon="17.80201400">
+                <ele>352.27000000</ele>
             </trkpt>
             <trkpt lat="46.98414300" lon="17.80206100">
+                <ele>350.67000000</ele>
             </trkpt>
             <trkpt lat="46.98406500" lon="17.80202200">
+                <ele>349.48000000</ele>
             </trkpt>
             <trkpt lat="46.98400200" lon="17.80183100">
+                <ele>349.24000000</ele>
             </trkpt>
             <trkpt lat="46.98382600" lon="17.80131800">
+                <ele>347.80000000</ele>
             </trkpt>
             <trkpt lat="46.98363500" lon="17.80099400">
+                <ele>345.78000000</ele>
             </trkpt>
             <trkpt lat="46.98348900" lon="17.80089700">
+                <ele>343.99000000</ele>
             </trkpt>
             <trkpt lat="46.98329600" lon="17.80087400">
+                <ele>341.57000000</ele>
             </trkpt>
             <trkpt lat="46.98308900" lon="17.80103900">
+                <ele>339.33000000</ele>
             </trkpt>
             <trkpt lat="46.98264600" lon="17.80161500">
+                <ele>331.81000000</ele>
             </trkpt>
             <trkpt lat="46.98238600" lon="17.80197500">
+                <ele>326.48000000</ele>
             </trkpt>
             <trkpt lat="46.98213500" lon="17.80220200">
+                <ele>322.70000000</ele>
             </trkpt>
             <trkpt lat="46.98171900" lon="17.80239700">
+                <ele>317.72000000</ele>
             </trkpt>
             <trkpt lat="46.98138600" lon="17.80243800">
+                <ele>314.68000000</ele>
             </trkpt>
             <trkpt lat="46.98096900" lon="17.80257800">
+                <ele>310.12000000</ele>
             </trkpt>
             <trkpt lat="46.98079700" lon="17.80270400">
+                <ele>307.45000000</ele>
             </trkpt>
             <trkpt lat="46.98046400" lon="17.80316500">
+                <ele>300.25000000</ele>
             </trkpt>
             <trkpt lat="46.97949700" lon="17.80446300">
+                <ele>291.16000000</ele>
             </trkpt>
             <trkpt lat="46.97934600" lon="17.80457900">
+                <ele>291.18000000</ele>
             </trkpt>
             <trkpt lat="46.97924700" lon="17.80458800">
+                <ele>291.36000000</ele>
             </trkpt>
             <trkpt lat="46.97915400" lon="17.80446500">
+                <ele>291.28000000</ele>
             </trkpt>
             <trkpt lat="46.97888400" lon="17.80408700">
+                <ele>289.81000000</ele>
             </trkpt>
             <trkpt lat="46.97872200" lon="17.80382800">
+                <ele>289.71000000</ele>
             </trkpt>
             <trkpt lat="46.97868300" lon="17.80381000">
+                <ele>289.60000000</ele>
             </trkpt>
             <trkpt lat="46.97860500" lon="17.80393200">
+                <ele>288.96000000</ele>
             </trkpt>
             <trkpt lat="46.97845700" lon="17.80413400">
+                <ele>287.71000000</ele>
             </trkpt>
             <trkpt lat="46.97795100" lon="17.80441100">
+                <ele>283.80000000</ele>
             </trkpt>
             <trkpt lat="46.97780300" lon="17.80448600">
+                <ele>282.12000000</ele>
             </trkpt>
             <trkpt lat="46.97772800" lon="17.80490000">
+                <ele>278.13000000</ele>
             </trkpt>
             <trkpt lat="46.97770300" lon="17.80522400">
+                <ele>274.79000000</ele>
             </trkpt>
             <trkpt lat="46.97768100" lon="17.80536800">
+                <ele>273.12000000</ele>
             </trkpt>
             <trkpt lat="46.97782400" lon="17.80574800">
+                <ele>271.00000000</ele>
             </trkpt>
             <trkpt lat="46.97813100" lon="17.80597400">
+                <ele>271.00000000</ele>
             </trkpt>
             <trkpt lat="46.97857400" lon="17.80615500">
+                <ele>271.20000000</ele>
             </trkpt>
             <trkpt lat="46.97873600" lon="17.80628100">
+                <ele>269.72000000</ele>
             </trkpt>
             <trkpt lat="46.97884900" lon="17.80643700">
+                <ele>267.44000000</ele>
             </trkpt>
             <trkpt lat="46.97883500" lon="17.80658600">
+                <ele>264.95000000</ele>
             </trkpt>
             <trkpt lat="46.97857800" lon="17.80699600">
+                <ele>259.23000000</ele>
             </trkpt>
             <trkpt lat="46.97822500" lon="17.80771400">
+                <ele>249.46000000</ele>
             </trkpt>
             <trkpt lat="46.97818300" lon="17.80793600">
+                <ele>246.36000000</ele>
             </trkpt>
             <trkpt lat="46.97834100" lon="17.80830500">
+                <ele>242.40000000</ele>
             </trkpt>
             <trkpt lat="46.97867800" lon="17.80875100">
+                <ele>241.99000000</ele>
             </trkpt>
             <trkpt lat="46.97873200" lon="17.80896100">
+                <ele>241.59000000</ele>
             </trkpt>
             <trkpt lat="46.97827300" lon="17.80963500">
+                <ele>237.74000000</ele>
             </trkpt>
             <trkpt lat="46.97785900" lon="17.81025400">
+                <ele>235.28000000</ele>
             </trkpt>
             <trkpt lat="46.97775600" lon="17.81046100">
+                <ele>234.29000000</ele>
             </trkpt>
             <trkpt lat="46.97787200" lon="17.81061500">
+                <ele>234.93000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -267,12 +364,16 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.97787200" lon="17.81061500">
+                <ele>234.93000000</ele>
             </trkpt>
             <trkpt lat="46.97636200" lon="17.81221400">
+                <ele>222.34000000</ele>
             </trkpt>
             <trkpt lat="46.97504600" lon="17.81354300">
+                <ele>214.44000000</ele>
             </trkpt>
             <trkpt lat="46.97326200" lon="17.81520000">
+                <ele>206.26000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -288,16 +389,22 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.97326200" lon="17.81520000">
+                <ele>206.26000000</ele>
             </trkpt>
             <trkpt lat="46.97152200" lon="17.81668100">
+                <ele>200.28000000</ele>
             </trkpt>
             <trkpt lat="46.97036900" lon="17.81768400">
+                <ele>195.56000000</ele>
             </trkpt>
             <trkpt lat="46.96773400" lon="17.81990700">
+                <ele>189.38000000</ele>
             </trkpt>
             <trkpt lat="46.96624200" lon="17.82123900">
+                <ele>185.47000000</ele>
             </trkpt>
             <trkpt lat="46.96610200" lon="17.82143900">
+                <ele>186.04000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -313,44 +420,64 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.96610200" lon="17.82143900">
+                <ele>186.04000000</ele>
             </trkpt>
             <trkpt lat="46.96564500" lon="17.82192000">
+                <ele>186.91000000</ele>
             </trkpt>
             <trkpt lat="46.96547700" lon="17.82210700">
+                <ele>187.02000000</ele>
             </trkpt>
             <trkpt lat="46.96529300" lon="17.82275900">
+                <ele>187.32000000</ele>
             </trkpt>
             <trkpt lat="46.96523800" lon="17.82298100">
+                <ele>187.22000000</ele>
             </trkpt>
             <trkpt lat="46.96514400" lon="17.82298700">
+                <ele>187.52000000</ele>
             </trkpt>
             <trkpt lat="46.96502800" lon="17.82297900">
+                <ele>187.91000000</ele>
             </trkpt>
             <trkpt lat="46.96492200" lon="17.82306100">
+                <ele>188.52000000</ele>
             </trkpt>
             <trkpt lat="46.96497000" lon="17.82338200">
+                <ele>188.10000000</ele>
             </trkpt>
             <trkpt lat="46.96497700" lon="17.82345700">
+                <ele>187.86000000</ele>
             </trkpt>
             <trkpt lat="46.96466100" lon="17.82376900">
+                <ele>188.97000000</ele>
             </trkpt>
             <trkpt lat="46.96447000" lon="17.82411900">
+                <ele>188.73000000</ele>
             </trkpt>
             <trkpt lat="46.96429800" lon="17.82445300">
+                <ele>187.76000000</ele>
             </trkpt>
             <trkpt lat="46.96404400" lon="17.82467900">
+                <ele>187.73000000</ele>
             </trkpt>
             <trkpt lat="46.96380800" lon="17.82503100">
+                <ele>186.98000000</ele>
             </trkpt>
             <trkpt lat="46.96364600" lon="17.82562700">
+                <ele>184.37000000</ele>
             </trkpt>
             <trkpt lat="46.96344800" lon="17.82601500">
+                <ele>183.56000000</ele>
             </trkpt>
             <trkpt lat="46.96318900" lon="17.82642700">
+                <ele>182.67000000</ele>
             </trkpt>
             <trkpt lat="46.96290000" lon="17.82667700">
+                <ele>182.52000000</ele>
             </trkpt>
             <trkpt lat="46.96232500" lon="17.82699200">
+                <ele>181.68000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -366,36 +493,52 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.96232500" lon="17.82699200">
+                <ele>181.68000000</ele>
             </trkpt>
             <trkpt lat="46.96228600" lon="17.82746500">
+                <ele>178.47000000</ele>
             </trkpt>
             <trkpt lat="46.96219200" lon="17.82789300">
+                <ele>178.41000000</ele>
             </trkpt>
             <trkpt lat="46.96191600" lon="17.82846100">
+                <ele>179.32000000</ele>
             </trkpt>
             <trkpt lat="46.96141300" lon="17.82919400">
+                <ele>180.88000000</ele>
             </trkpt>
             <trkpt lat="46.96096900" lon="17.82963600">
+                <ele>181.19000000</ele>
             </trkpt>
             <trkpt lat="46.96059400" lon="17.82983700">
+                <ele>182.95000000</ele>
             </trkpt>
             <trkpt lat="46.96037600" lon="17.82986300">
+                <ele>184.01000000</ele>
             </trkpt>
             <trkpt lat="46.96019100" lon="17.82980300">
+                <ele>184.18000000</ele>
             </trkpt>
             <trkpt lat="46.95973800" lon="17.82947800">
+                <ele>182.18000000</ele>
             </trkpt>
             <trkpt lat="46.95946300" lon="17.82926600">
+                <ele>180.93000000</ele>
             </trkpt>
             <trkpt lat="46.95906900" lon="17.82914100">
+                <ele>180.68000000</ele>
             </trkpt>
             <trkpt lat="46.95872300" lon="17.82912400">
+                <ele>179.83000000</ele>
             </trkpt>
             <trkpt lat="46.95835600" lon="17.82920000">
+                <ele>179.18000000</ele>
             </trkpt>
             <trkpt lat="46.95729600" lon="17.82974900">
+                <ele>184.08000000</ele>
             </trkpt>
             <trkpt lat="46.95693600" lon="17.82996400">
+                <ele>186.58000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -411,70 +554,103 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.95693600" lon="17.82996400">
+                <ele>186.58000000</ele>
             </trkpt>
             <trkpt lat="46.95660400" lon="17.82986200">
+                <ele>187.79000000</ele>
             </trkpt>
             <trkpt lat="46.95629200" lon="17.82975800">
+                <ele>189.13000000</ele>
             </trkpt>
             <trkpt lat="46.95575500" lon="17.82988100">
+                <ele>191.64000000</ele>
             </trkpt>
             <trkpt lat="46.95491200" lon="17.83023600">
+                <ele>193.56000000</ele>
             </trkpt>
             <trkpt lat="46.95423200" lon="17.83066800">
+                <ele>192.03000000</ele>
             </trkpt>
             <trkpt lat="46.95349200" lon="17.83098400">
+                <ele>191.40000000</ele>
             </trkpt>
             <trkpt lat="46.95287900" lon="17.83119800">
+                <ele>190.99000000</ele>
             </trkpt>
             <trkpt lat="46.95241600" lon="17.83122600">
+                <ele>191.11000000</ele>
             </trkpt>
             <trkpt lat="46.95213600" lon="17.83134200">
+                <ele>190.56000000</ele>
             </trkpt>
             <trkpt lat="46.95181400" lon="17.83158000">
+                <ele>189.42000000</ele>
             </trkpt>
             <trkpt lat="46.95152700" lon="17.83161800">
+                <ele>189.10000000</ele>
             </trkpt>
             <trkpt lat="46.95119400" lon="17.83202300">
+                <ele>188.13000000</ele>
             </trkpt>
             <trkpt lat="46.95016500" lon="17.83339600">
+                <ele>181.58000000</ele>
             </trkpt>
             <trkpt lat="46.94903600" lon="17.83471800">
+                <ele>170.75000000</ele>
             </trkpt>
             <trkpt lat="46.94822100" lon="17.83528300">
+                <ele>166.64000000</ele>
             </trkpt>
             <trkpt lat="46.94706500" lon="17.83619900">
+                <ele>163.35000000</ele>
             </trkpt>
             <trkpt lat="46.94628400" lon="17.83671000">
+                <ele>160.88000000</ele>
             </trkpt>
             <trkpt lat="46.94551900" lon="17.83655900">
+                <ele>159.37000000</ele>
             </trkpt>
             <trkpt lat="46.94466600" lon="17.83622800">
+                <ele>157.94000000</ele>
             </trkpt>
             <trkpt lat="46.94394900" lon="17.83605100">
+                <ele>157.48000000</ele>
             </trkpt>
             <trkpt lat="46.94296000" lon="17.83555800">
+                <ele>157.28000000</ele>
             </trkpt>
             <trkpt lat="46.94222900" lon="17.83525000">
+                <ele>155.48000000</ele>
             </trkpt>
             <trkpt lat="46.94171800" lon="17.83510400">
+                <ele>154.83000000</ele>
             </trkpt>
             <trkpt lat="46.94094700" lon="17.83501300">
+                <ele>150.70000000</ele>
             </trkpt>
             <trkpt lat="46.93959700" lon="17.83454700">
+                <ele>146.02000000</ele>
             </trkpt>
             <trkpt lat="46.93917400" lon="17.83436200">
+                <ele>145.25000000</ele>
             </trkpt>
             <trkpt lat="46.93881800" lon="17.83415700">
+                <ele>143.33000000</ele>
             </trkpt>
             <trkpt lat="46.93842000" lon="17.83422400">
+                <ele>141.48000000</ele>
             </trkpt>
             <trkpt lat="46.93713600" lon="17.83486800">
+                <ele>139.99000000</ele>
             </trkpt>
             <trkpt lat="46.93627600" lon="17.83544700">
+                <ele>137.71000000</ele>
             </trkpt>
             <trkpt lat="46.93569900" lon="17.83586900">
+                <ele>135.80000000</ele>
             </trkpt>
             <trkpt lat="46.93559300" lon="17.83609200">
+                <ele>135.40000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -490,36 +666,52 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.93559300" lon="17.83609200">
+                <ele>135.40000000</ele>
             </trkpt>
             <trkpt lat="46.93492500" lon="17.83561600">
+                <ele>135.80000000</ele>
             </trkpt>
             <trkpt lat="46.93445400" lon="17.83548000">
+                <ele>136.09000000</ele>
             </trkpt>
             <trkpt lat="46.93358900" lon="17.83549200">
+                <ele>135.59000000</ele>
             </trkpt>
             <trkpt lat="46.93295200" lon="17.83560300">
+                <ele>133.78000000</ele>
             </trkpt>
             <trkpt lat="46.93249100" lon="17.83586800">
+                <ele>131.97000000</ele>
             </trkpt>
             <trkpt lat="46.93224700" lon="17.83610600">
+                <ele>130.40000000</ele>
             </trkpt>
             <trkpt lat="46.93203500" lon="17.83626700">
+                <ele>129.19000000</ele>
             </trkpt>
             <trkpt lat="46.93184200" lon="17.83626200">
+                <ele>127.80000000</ele>
             </trkpt>
             <trkpt lat="46.93153700" lon="17.83583200">
+                <ele>124.38000000</ele>
             </trkpt>
             <trkpt lat="46.93086300" lon="17.83510900">
+                <ele>121.98000000</ele>
             </trkpt>
             <trkpt lat="46.93018000" lon="17.83421800">
+                <ele>122.44000000</ele>
             </trkpt>
             <trkpt lat="46.92953800" lon="17.83357000">
+                <ele>125.62000000</ele>
             </trkpt>
             <trkpt lat="46.92943100" lon="17.83347400">
+                <ele>126.37000000</ele>
             </trkpt>
             <trkpt lat="46.92924100" lon="17.83340600">
+                <ele>127.32000000</ele>
             </trkpt>
             <trkpt lat="46.92917700" lon="17.83331100">
+                <ele>128.07000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -535,34 +727,49 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.92917700" lon="17.83331100">
+                <ele>128.07000000</ele>
             </trkpt>
             <trkpt lat="46.92924200" lon="17.83307200">
+                <ele>129.09000000</ele>
             </trkpt>
             <trkpt lat="46.92948000" lon="17.83274600">
+                <ele>130.75000000</ele>
             </trkpt>
             <trkpt lat="46.92974700" lon="17.83259000">
+                <ele>131.96000000</ele>
             </trkpt>
             <trkpt lat="46.93000000" lon="17.83241100">
+                <ele>133.43000000</ele>
             </trkpt>
             <trkpt lat="46.93002900" lon="17.83218200">
+                <ele>134.35000000</ele>
             </trkpt>
             <trkpt lat="46.93000000" lon="17.83239400">
+                <ele>133.51000000</ele>
             </trkpt>
             <trkpt lat="46.92970200" lon="17.83259500">
+                <ele>131.89000000</ele>
             </trkpt>
             <trkpt lat="46.92944100" lon="17.83277500">
+                <ele>130.57000000</ele>
             </trkpt>
             <trkpt lat="46.92924200" lon="17.83305200">
+                <ele>129.20000000</ele>
             </trkpt>
             <trkpt lat="46.92907300" lon="17.83354600">
+                <ele>126.75000000</ele>
             </trkpt>
             <trkpt lat="46.92883300" lon="17.83414100">
+                <ele>123.54000000</ele>
             </trkpt>
             <trkpt lat="46.92855200" lon="17.83456100">
+                <ele>122.67000000</ele>
             </trkpt>
             <trkpt lat="46.92825200" lon="17.83478400">
+                <ele>122.35000000</ele>
             </trkpt>
             <trkpt lat="46.92813700" lon="17.83482000">
+                <ele>122.02000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -578,16 +785,22 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.92813700" lon="17.83482000">
+                <ele>122.02000000</ele>
             </trkpt>
             <trkpt lat="46.92788000" lon="17.83514000">
+                <ele>120.50000000</ele>
             </trkpt>
             <trkpt lat="46.92766100" lon="17.83546100">
+                <ele>119.18000000</ele>
             </trkpt>
             <trkpt lat="46.92725400" lon="17.83619400">
+                <ele>116.96000000</ele>
             </trkpt>
             <trkpt lat="46.92694300" lon="17.83669100">
+                <ele>116.32000000</ele>
             </trkpt>
             <trkpt lat="46.92685200" lon="17.83665400">
+                <ele>116.57000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -603,42 +816,61 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.92685200" lon="17.83665400">
+                <ele>116.57000000</ele>
             </trkpt>
             <trkpt lat="46.92682400" lon="17.83664300">
+                <ele>116.66000000</ele>
             </trkpt>
             <trkpt lat="46.92638000" lon="17.83740100">
+                <ele>116.12000000</ele>
             </trkpt>
             <trkpt lat="46.92614400" lon="17.83706100">
+                <ele>116.53000000</ele>
             </trkpt>
             <trkpt lat="46.92465300" lon="17.83965000">
+                <ele>114.42000000</ele>
             </trkpt>
             <trkpt lat="46.92494500" lon="17.84013100">
+                <ele>113.99000000</ele>
             </trkpt>
             <trkpt lat="46.92338000" lon="17.84334800">
+                <ele>111.02000000</ele>
             </trkpt>
             <trkpt lat="46.92308900" lon="17.84400100">
+                <ele>109.28000000</ele>
             </trkpt>
             <trkpt lat="46.92247500" lon="17.84631300">
+                <ele>107.81000000</ele>
             </trkpt>
             <trkpt lat="46.92229800" lon="17.84697600">
+                <ele>106.63000000</ele>
             </trkpt>
             <trkpt lat="46.92207400" lon="17.84766100">
+                <ele>106.29000000</ele>
             </trkpt>
             <trkpt lat="46.92193200" lon="17.84807100">
+                <ele>107.15000000</ele>
             </trkpt>
             <trkpt lat="46.92182300" lon="17.84818900">
+                <ele>107.50000000</ele>
             </trkpt>
             <trkpt lat="46.92184000" lon="17.84836100">
+                <ele>107.73000000</ele>
             </trkpt>
             <trkpt lat="46.92119900" lon="17.85028000">
+                <ele>106.74000000</ele>
             </trkpt>
             <trkpt lat="46.92099800" lon="17.85091800">
+                <ele>106.14000000</ele>
             </trkpt>
             <trkpt lat="46.92088400" lon="17.85144300">
+                <ele>107.33000000</ele>
             </trkpt>
             <trkpt lat="46.92083900" lon="17.85224300">
+                <ele>109.37000000</ele>
             </trkpt>
             <trkpt lat="46.92081500" lon="17.85284100">
+                <ele>111.82000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -654,74 +886,109 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.92081500" lon="17.85284100">
+                <ele>111.82000000</ele>
             </trkpt>
             <trkpt lat="46.92073600" lon="17.85302300">
+                <ele>113.60000000</ele>
             </trkpt>
             <trkpt lat="46.92070800" lon="17.85337800">
+                <ele>115.82000000</ele>
             </trkpt>
             <trkpt lat="46.92053700" lon="17.85374900">
+                <ele>119.99000000</ele>
             </trkpt>
             <trkpt lat="46.92060900" lon="17.85359100">
+                <ele>118.09000000</ele>
             </trkpt>
             <trkpt lat="46.92074100" lon="17.85356400">
+                <ele>115.94000000</ele>
             </trkpt>
             <trkpt lat="46.92095800" lon="17.85348500">
+                <ele>113.40000000</ele>
             </trkpt>
             <trkpt lat="46.92126500" lon="17.85507300">
+                <ele>112.42000000</ele>
             </trkpt>
             <trkpt lat="46.92136400" lon="17.85571700">
+                <ele>111.86000000</ele>
             </trkpt>
             <trkpt lat="46.92143900" lon="17.85608000">
+                <ele>110.88000000</ele>
             </trkpt>
             <trkpt lat="46.92159400" lon="17.85625100">
+                <ele>109.21000000</ele>
             </trkpt>
             <trkpt lat="46.92174200" lon="17.85656200">
+                <ele>107.86000000</ele>
             </trkpt>
             <trkpt lat="46.92177100" lon="17.85678400">
+                <ele>108.19000000</ele>
             </trkpt>
             <trkpt lat="46.92158300" lon="17.85721200">
+                <ele>111.10000000</ele>
             </trkpt>
             <trkpt lat="46.92114000" lon="17.85786000">
+                <ele>115.44000000</ele>
             </trkpt>
             <trkpt lat="46.92075600" lon="17.85848700">
+                <ele>116.46000000</ele>
             </trkpt>
             <trkpt lat="46.92046600" lon="17.85923800">
+                <ele>118.72000000</ele>
             </trkpt>
             <trkpt lat="46.92023700" lon="17.86000800">
+                <ele>120.88000000</ele>
             </trkpt>
             <trkpt lat="46.92007300" lon="17.86103000">
+                <ele>121.65000000</ele>
             </trkpt>
             <trkpt lat="46.91981200" lon="17.86295200">
+                <ele>122.98000000</ele>
             </trkpt>
             <trkpt lat="46.91963100" lon="17.86440800">
+                <ele>123.34000000</ele>
             </trkpt>
             <trkpt lat="46.91957000" lon="17.86576500">
+                <ele>121.09000000</ele>
             </trkpt>
             <trkpt lat="46.91954900" lon="17.86733300">
+                <ele>118.07000000</ele>
             </trkpt>
             <trkpt lat="46.91952400" lon="17.86857300">
+                <ele>118.81000000</ele>
             </trkpt>
             <trkpt lat="46.91949200" lon="17.86935500">
+                <ele>120.96000000</ele>
             </trkpt>
             <trkpt lat="46.91937100" lon="17.87026900">
+                <ele>123.93000000</ele>
             </trkpt>
             <trkpt lat="46.91919600" lon="17.87123800">
+                <ele>127.72000000</ele>
             </trkpt>
             <trkpt lat="46.91900200" lon="17.87199300">
+                <ele>131.32000000</ele>
             </trkpt>
             <trkpt lat="46.91829500" lon="17.87399500">
+                <ele>141.47000000</ele>
             </trkpt>
             <trkpt lat="46.91795100" lon="17.87510800">
+                <ele>145.05000000</ele>
             </trkpt>
             <trkpt lat="46.91754700" lon="17.87686500">
+                <ele>153.03000000</ele>
             </trkpt>
             <trkpt lat="46.91728900" lon="17.87813900">
+                <ele>162.36000000</ele>
             </trkpt>
             <trkpt lat="46.91726700" lon="17.87831700">
+                <ele>163.72000000</ele>
             </trkpt>
             <trkpt lat="46.91706200" lon="17.87865000">
+                <ele>166.20000000</ele>
             </trkpt>
             <trkpt lat="46.91676100" lon="17.87899200">
+                <ele>166.46000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -737,12 +1004,16 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.91676100" lon="17.87899200">
+                <ele>166.46000000</ele>
             </trkpt>
             <trkpt lat="46.91640200" lon="17.87948800">
+                <ele>166.34000000</ele>
             </trkpt>
             <trkpt lat="46.91622700" lon="17.87994600">
+                <ele>167.16000000</ele>
             </trkpt>
             <trkpt lat="46.91600600" lon="17.88159300">
+                <ele>166.86000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -758,14 +1029,19 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.91600600" lon="17.88159300">
+                <ele>166.86000000</ele>
             </trkpt>
             <trkpt lat="46.91580800" lon="17.88322900">
+                <ele>166.77000000</ele>
             </trkpt>
             <trkpt lat="46.91566200" lon="17.88449100">
+                <ele>168.13000000</ele>
             </trkpt>
             <trkpt lat="46.91552000" lon="17.88492900">
+                <ele>168.88000000</ele>
             </trkpt>
             <trkpt lat="46.91560100" lon="17.88506200">
+                <ele>170.47000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
@@ -781,16 +1057,22 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.91560100" lon="17.88506200">
+                <ele>170.47000000</ele>
             </trkpt>
             <trkpt lat="46.91542500" lon="17.88608000">
+                <ele>172.34000000</ele>
             </trkpt>
             <trkpt lat="46.91532200" lon="17.88682200">
+                <ele>173.71000000</ele>
             </trkpt>
             <trkpt lat="46.91525900" lon="17.88758800">
+                <ele>178.15000000</ele>
             </trkpt>
             <trkpt lat="46.91512600" lon="17.88788300">
+                <ele>178.49000000</ele>
             </trkpt>
             <trkpt lat="46.91482200" lon="17.88862900">
+                <ele>179.42000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">F
@@ -806,20 +1088,28 @@
         </trkseg>
         <trkseg>
             <trkpt lat="46.91482200" lon="17.88862900">
+                <ele>179.42000000</ele>
             </trkpt>
             <trkpt lat="46.91457600" lon="17.88924400">
+                <ele>178.62000000</ele>
             </trkpt>
             <trkpt lat="46.91446400" lon="17.88944300">
+                <ele>176.36000000</ele>
             </trkpt>
             <trkpt lat="46.91434300" lon="17.88947500">
+                <ele>177.30000000</ele>
             </trkpt>
             <trkpt lat="46.91421300" lon="17.88942000">
+                <ele>179.82000000</ele>
             </trkpt>
             <trkpt lat="46.91406000" lon="17.88922600">
+                <ele>182.02000000</ele>
             </trkpt>
             <trkpt lat="46.91394800" lon="17.88924900">
+                <ele>180.60000000</ele>
             </trkpt>
             <trkpt lat="46.91395000" lon="17.88934800">
+                <ele>179.42000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
