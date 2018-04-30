@@ -1,6 +1,5 @@
 - adatok feltöltése
   - jelöltség, burkolat szerint darabolva
-    - jelölések fontossági sorrendjét ellenõrizni pl. Z,P+
   - eltérések a csoportos útvonaltól
     - napi szakaszok eleje/vége!
 - szakaszok tulajdonságai:

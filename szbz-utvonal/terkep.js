@@ -44,7 +44,20 @@ function addUtvonal(layerControl) {
 
     for (var i = 0; i < files.length; i++) {
         var file = files[i];
-        layers.push(new L.GPX('gpx/' + file, { async: true }).on("addline", addSegment));
+        layers.push(new L.GPX('gpx/' + file,
+            {
+                async: true,
+                marker_options: {
+                    startIconUrl: 'images/pin-icon-start.png',
+                    endIconUrl: 'images/pin-icon-end.png',
+                    shadowUrl: 'images/pin-shadow.png',
+                    iconSize: [16, 25],
+                    shadowSize: [25, 25],
+                    iconAnchor: [8, 22],
+                    shadowAnchor: [8, 23],
+                }
+            })
+            .on("addline", addSegment));
     }
 
     var layerGroup = L.layerGroup(layers);
