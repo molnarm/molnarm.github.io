@@ -786,6 +786,22 @@
             <trkpt lat="47.61675700" lon="17.71474300">
                 <ele>118.56000000</ele>
             </trkpt>
+            <extensions>
+                <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+                    <id>107</id>
+                    <title></title>
+                    <description></description>
+                    <from>Pándzsa-híd</from>
+                    <to></to>
+                    <sign></sign>
+                    <type>kavics</type>
+                </szbz>
+            </extensions>
+        </trkseg>
+        <trkseg>
+            <trkpt lat="47.61675700" lon="17.71474300">
+                <ele>118.56000000</ele>
+            </trkpt>
             <trkpt lat="47.61676400" lon="17.71492100">
                 <ele>118.95000000</ele>
             </trkpt>
@@ -825,6 +841,22 @@
             <trkpt lat="47.60514300" lon="17.73251500">
                 <ele>120.03000000</ele>
             </trkpt>
+            <extensions>
+                <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+                    <id>108</id>
+                    <title></title>
+                    <description></description>
+                    <from></from>
+                    <to></to>
+                    <sign></sign>
+                    <type>földút</type>
+                </szbz>
+            </extensions>
+        </trkseg>
+        <trkseg>
+            <trkpt lat="47.60514300" lon="17.73251500">
+                <ele>120.03000000</ele>
+            </trkpt>
             <trkpt lat="47.60470800" lon="17.73177900">
                 <ele>120.56000000</ele>
             </trkpt>
@@ -837,6 +869,22 @@
             <trkpt lat="47.60376000" lon="17.72987000">
                 <ele>118.64000000</ele>
             </trkpt>
+            <trkpt lat="47.60357000" lon="17.72956700">
+                <ele>119.24000000</ele>
+            </trkpt>
+            <extensions>
+                <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+                    <id>109</id>
+                    <title></title>
+                    <description></description>
+                    <from></from>
+                    <to></to>
+                    <sign></sign>
+                    <type>kavics</type>
+                </szbz>
+            </extensions>
+        </trkseg>
+        <trkseg>
             <trkpt lat="47.60357000" lon="17.72956700">
                 <ele>119.24000000</ele>
             </trkpt>
@@ -945,6 +993,22 @@
             <trkpt lat="47.58846200" lon="17.75103700">
                 <ele>129.21000000</ele>
             </trkpt>
+            <extensions>
+                <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+                    <id>110</id>
+                    <title></title>
+                    <description></description>
+                    <from></from>
+                    <to></to>
+                    <sign></sign>
+                    <type>kavics</type>
+                </szbz>
+            </extensions>
+        </trkseg>
+        <trkseg>
+            <trkpt lat="47.58846200" lon="17.75103700">
+                <ele>129.21000000</ele>
+            </trkpt>
             <trkpt lat="47.58811200" lon="17.75063100">
                 <ele>128.56000000</ele>
             </trkpt>
@@ -959,13 +1023,13 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>107</id>
-                    <title>Győrsági földek</title>
+                    <id>111</id>
+                    <title>ó</title>
                     <description></description>
-                    <from>Pándzsa-híd</from>
+                    <from>ó</from>
                     <to>Győrság</to>
                     <sign></sign>
-                    <type>földút</type>
+                    <type>kavics</type>
                 </szbz>
             </extensions>
         </trkseg>
@@ -1002,7 +1066,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>108</id>
+                    <id>112</id>
                     <title>Győrság</title>
                     <description></description>
                     <from>Győrság, Vörösmarty utca</from>
@@ -1069,7 +1133,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>109</id>
+                    <id>113</id>
                     <title>Győrság</title>
                     <description></description>
                     <from>Győrság, Öreg utca</from>
@@ -1202,7 +1266,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>110</id>
+                    <id>114</id>
                     <title>Győrsági domb</title>
                     <description></description>
                     <from>Győrság, Öreg utca</from>
@@ -1257,7 +1321,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>111</id>
+                    <id>115</id>
                     <title>Győrság</title>
                     <description></description>
                     <from>Győrság, Ámánd utca</from>
@@ -1378,7 +1442,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>112</id>
+                    <id>116</id>
                     <title>Győrsági dombok</title>
                     <description></description>
                     <from>Győrság, Kossuth utca</from>
@@ -1440,15 +1504,12 @@
             <trkpt lat="47.55243700" lon="17.76236400">
                 <ele>259.45000000</ele>
             </trkpt>
-            <trkpt lat="47.55239800" lon="17.76220100">
-                <ele>261.84000000</ele>
-            </trkpt>
-            <trkpt lat="47.55233300" lon="17.76167500">
-                <ele>268.30000000</ele>
+            <trkpt lat="47.55234983" lon="17.76192311">
+                <ele>265.34000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>113</id>
+                    <id>117</id>
                     <title>Pannonhalma, szerpentin</title>
                     <description></description>
                     <from>Pannonhalma, tóthegy</from>
