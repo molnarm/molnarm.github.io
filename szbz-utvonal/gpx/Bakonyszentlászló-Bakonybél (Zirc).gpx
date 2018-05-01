@@ -7,8 +7,8 @@
     <trk>
         <name>Bakonyszentlászló-Bakonybél, Zircen keresztül</name>
         <trkseg>
-            <trkpt lat="47.38955293" lon="17.80200129">
-                <ele>222.05000000</ele>
+            <trkpt lat="47.39050000" lon="17.80130200">
+                <ele>220.55000000</ele>
             </trkpt>
             <trkpt lat="47.38957351" lon="17.80207428">
                 <ele>221.80000000</ele>
@@ -76,12 +76,15 @@
             <trkpt lat="47.38103200" lon="17.80492022">
                 <ele>250.67000000</ele>
             </trkpt>
+            <trkpt lat="47.38050993" lon="17.80558705">
+                <ele>251.00000000</ele>
+            </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
                     <id>301</id>
                     <title>Bakonyszentlászló</title>
                     <description></description>
-                    <from>Vak Bottyán utca</from>
+                    <from>László király utca</from>
                     <to>Ady Endre utca</to>
                     <sign>S+</sign>
                     <type>úttest</type>
@@ -89,8 +92,8 @@
             </extensions>
         </trkseg>
         <trkseg>
-            <trkpt lat="47.38103200" lon="17.80492022">
-                <ele>250.67000000</ele>
+            <trkpt lat="47.38050993" lon="17.80558705">
+                <ele>251.00000000</ele>
             </trkpt>
             <trkpt lat="47.37961491" lon="17.80671601">
                 <ele>251.52000000</ele>
@@ -110,9 +113,9 @@
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
                     <id>302</id>
-                    <title>Bakonyszentlászló</title>
+                    <title></title>
                     <description></description>
-                    <from>Ady Endre utca</from>
+                    <from>Bakonyszentlászló</from>
                     <to></to>
                     <sign></sign>
                     <type>úttest</type>
@@ -277,6 +280,22 @@
             <trkpt lat="47.36018471" lon="17.82361859">
                 <ele>267.06000000</ele>
             </trkpt>
+            <extensions>
+                <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+                    <id>307</id>
+                    <title></title>
+                    <description></description>
+                    <from></from>
+                    <to></to>
+                    <sign>P,S,Z,P+</sign>
+                    <type>kavics</type>
+                </szbz>
+            </extensions>
+        </trkseg>
+        <trkseg>
+            <trkpt lat="47.36018471" lon="17.82361859">
+                <ele>267.06000000</ele>
+            </trkpt>
             <trkpt lat="47.36035226" lon="17.82364202">
                 <ele>266.47000000</ele>
             </trkpt>
@@ -295,6 +314,22 @@
             <trkpt lat="47.36093935" lon="17.82631002">
                 <ele>268.88000000</ele>
             </trkpt>
+            <trkpt lat="47.36092606" lon="17.82646098">
+                <ele>270.45000000</ele>
+            </trkpt>
+            <extensions>
+                <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+                    <id>308</id>
+                    <title></title>
+                    <description></description>
+                    <from></from>
+                    <to>Kőpince-forrás</to>
+                    <sign>P,S,Z,P+</sign>
+                    <type>erdei ösvény</type>
+                </szbz>
+            </extensions>
+        </trkseg>
+        <trkseg>
             <trkpt lat="47.36092606" lon="17.82646098">
                 <ele>270.45000000</ele>
             </trkpt>
@@ -327,10 +362,10 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>307</id>
-                    <title>Kőpince-forrás</title>
+                    <id>309</id>
+                    <title></title>
                     <description></description>
-                    <from></from>
+                    <from>Kőpince-forrás</from>
                     <to></to>
                     <sign>P</sign>
                     <type>erdei ösvény</type>
@@ -608,6 +643,22 @@
             <trkpt lat="47.33250503" lon="17.84024579">
                 <ele>331.25000000</ele>
             </trkpt>
+            <extensions>
+                <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+                    <id>310</id>
+                    <title>Cuha-völgy</title>
+                    <description></description>
+                    <from></from>
+                    <to></to>
+                    <sign>P</sign>
+                    <type>kavics</type>
+                </szbz>
+            </extensions>
+        </trkseg>
+        <trkseg>
+            <trkpt lat="47.33250503" lon="17.84024579">
+                <ele>331.25000000</ele>
+            </trkpt>
             <trkpt lat="47.33180017" lon="17.84106340">
                 <ele>336.69000000</ele>
             </trkpt>
@@ -638,6 +689,22 @@
             <trkpt lat="47.32736639" lon="17.84277450">
                 <ele>347.99000000</ele>
             </trkpt>
+            <trkpt lat="47.32677714" lon="17.84245578">
+                <ele>342.78000000</ele>
+            </trkpt>
+            <extensions>
+                <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+                    <id>311</id>
+                    <title>Cuha-völgy</title>
+                    <description></description>
+                    <from></from>
+                    <to></to>
+                    <sign>P,S</sign>
+                    <type>kavics</type>
+                </szbz>
+            </extensions>
+        </trkseg>
+        <trkseg>
             <trkpt lat="47.32677714" lon="17.84245578">
                 <ele>342.78000000</ele>
             </trkpt>
@@ -721,7 +788,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>308</id>
+                    <id>312</id>
                     <title>Cuha-völgy</title>
                     <description></description>
                     <from></from>
@@ -885,6 +952,22 @@
             <trkpt lat="47.29735276" lon="17.86533679">
                 <ele>370.11000000</ele>
             </trkpt>
+            <extensions>
+                <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
+                    <id>313</id>
+                    <title>Cuha-völgy</title>
+                    <description></description>
+                    <from></from>
+                    <to></to>
+                    <sign>P</sign>
+                    <type>földút</type>
+                </szbz>
+            </extensions>
+        </trkseg>
+        <trkseg>
+            <trkpt lat="47.29735276" lon="17.86533679">
+                <ele>370.11000000</ele>
+            </trkpt>
             <trkpt lat="47.29699977" lon="17.86502759">
                 <ele>370.82000000</ele>
             </trkpt>
@@ -1034,13 +1117,13 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>309</id>
+                    <id>314</id>
                     <title>Cuha-völgy</title>
                     <description></description>
                     <from></from>
                     <to></to>
-                    <sign>P</sign>
-                    <type>erdei ösvény</type>
+                    <sign>P,LM</sign>
+                    <type>földút</type>
                 </szbz>
             </extensions>
         </trkseg>
@@ -1083,12 +1166,12 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>310</id>
+                    <id>315</id>
                     <title>Zirc</title>
                     <description></description>
                     <from></from>
                     <to>Köztársaság utca</to>
-                    <sign>P</sign>
+                    <sign>P,LM</sign>
                     <type>úttest</type>
                 </szbz>
             </extensions>
@@ -1129,7 +1212,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>311</id>
+                    <id>316</id>
                     <title>Zirci apátság</title>
                     <description></description>
                     <from>Alkotmány utca</from>
@@ -1202,7 +1285,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>312</id>
+                    <id>317</id>
                     <title>Zirc</title>
                     <description></description>
                     <from>Rákóczi tér</from>
@@ -1227,7 +1310,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>313</id>
+                    <id>318</id>
                     <title></title>
                     <description></description>
                     <from>Semmelweis Ferenc utca</from>
@@ -1261,7 +1344,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>314</id>
+                    <id>319</id>
                     <title>Engesztelési kereszt</title>
                     <description></description>
                     <from></from>
@@ -1526,7 +1609,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>315</id>
+                    <id>320</id>
                     <title></title>
                     <description></description>
                     <from></from>
@@ -1941,7 +2024,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>316</id>
+                    <id>321</id>
                     <title></title>
                     <description></description>
                     <from></from>
@@ -1993,7 +2076,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>317</id>
+                    <id>322</id>
                     <title></title>
                     <description></description>
                     <from>Csúcs-hegy</from>
@@ -2030,7 +2113,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>318</id>
+                    <id>323</id>
                     <title></title>
                     <description></description>
                     <from></from>
@@ -2115,7 +2198,7 @@
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>318</id>
+                    <id>324</id>
                     <title>Kossuth Lajos utca</title>
                     <description></description>
                     <from></from>
@@ -2144,12 +2227,12 @@
             <trkpt lat="47.25185489" lon="17.72820830">
                 <ele>279.59000000</ele>
             </trkpt>
-            <trkpt lat="47.25167073" lon="17.72787288">
+            <trkpt lat="47.25167000" lon="17.72787400">
                 <ele>279.44000000</ele>
             </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
-                    <id>319</id>
+                    <id>325</id>
                     <title>Fő utca</title>
                     <description></description>
                     <from>Kossuth Lajos utca</from>
