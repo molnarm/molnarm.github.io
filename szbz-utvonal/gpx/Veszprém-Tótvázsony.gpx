@@ -139,15 +139,6 @@
             <trkpt lat="47.08434900" lon="17.89847300">
                 <ele>269.51000000</ele>
             </trkpt>
-            <trkpt lat="47.08428400" lon="17.89831800">
-                <ele>268.95000000</ele>
-            </trkpt>
-            <trkpt lat="47.08355600" lon="17.89762800">
-                <ele>271.36000000</ele>
-            </trkpt>
-            <trkpt lat="47.08278500" lon="17.89688100">
-                <ele>275.71000000</ele>
-            </trkpt>
             <extensions>
                 <szbz xmlns="http://molnarm.github.io/szbz-utvonal" xsi:schemaLocation="http://molnarm.github.io/szbz-utvonal http://molnarm.github.io/szbz-utvonal/gpx/gpx.xsd">
                     <id>501</id>
@@ -161,6 +152,15 @@
             </extensions>
         </trkseg>
         <trkseg>
+            <trkpt lat="47.08434900" lon="17.89847300">
+                <ele>269.51000000</ele>
+            </trkpt>
+            <trkpt lat="47.08428400" lon="17.89831800">
+                <ele>268.95000000</ele>
+            </trkpt>
+            <trkpt lat="47.08355600" lon="17.89762800">
+                <ele>271.36000000</ele>
+            </trkpt>
             <trkpt lat="47.08278500" lon="17.89688100">
                 <ele>275.71000000</ele>
             </trkpt>
@@ -1296,7 +1296,7 @@
                     <description></description>
                     <from></from>
                     <to></to>
-                    <sign>P,Z+</sign>
+                    <sign>P,Z</sign>
                     <type>földút</type>
                 </szbz>
             </extensions>
