@@ -54,13 +54,20 @@
         <li>2014.06.22: A böngésző-bővítmények felismerik, ha a beágyazható verzió megtalálható az oldalon, ilyenkor nem lépnek működésbe (frissültek a bővítmények, a WordPress plugin is!). A beállításoknál ki lehet kapcsolni a szövegformázást (KNB-nél hasznos).</li>
     </ul>
 
+    <h2 id="history">Történet</h2>
+    <p>A bővítmény ötlete 2013. december 7-én született meg. Erre azért emlékszem ilyen pontosan, mert amikor aznap este &ndash; már az elhatározás után &ndash; szokás szerint végignéztem az RSS feliratkozásaimat, a következő, megerősítést adó bejegyzést olvastam a pápa Twitterén:</p>
+    <blockquote class="twitter-tweet tw-align-center" data-lang="hu">
+    <p lang="en" dir="ltr">Dear young people, put your talents at the service of the Gospel, with creativity and boundless charity.</p>&mdash; Pope Francis (@Pontifex) <a href="https://twitter.com/Pontifex/status/409323276469411840?ref_src=twsrc%5Etfw">2013. december 7.</a></blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <p>Akkor már egy ideje gondolkodtam rajta, hogy jó lenne, ha magyarul is létezne hasonló eszköz, mint a <a href="https://www.logos.com/reftagger" rel="nofollow">RefTagger</a> vagy a <a href="https://av1611.com/verseclick/" rel="nofollow">VerseClick</a>. Keresztény informatikusként sokszor észrevehető, hogy mennyi kihasználatlan lehetősége lenne az Egyháznak ezen a téren (hivatalos e-Biblia például tudtommal azóta sincsen), és jobb ötelt híján nekiláttam  kicsiben: legalább a hivatkozott szentírás részek legyenek könnyen elérhetők. Ebben kapóra jött az akkoriban újjáéledő <a href="http://szentiras.hu">szentiras.hu</a>. Mivel ez egy szabadidős projekt, a funkciók fejlesztése a prioritás, ami sajnos meg is látszik a kinézetén.</p>
+
     <h2 id="instructions">Webmestereknek</h2>
     <h3>WordPress</h3>
     <p>A bővítményt le lehet tölteni az adminisztrációs oldalon az "Igemutató" névre keresve, vagy pedig <a href="http://wordpress.org/plugins/igemutato/">innen</a>.</p>
 
     <h3>Más honlapok</h3>
     <p>Ha egy általunk üzemeltetett oldalon szeretnénk mindenki számára elérhetővé tenni a funkciót, akkor semmi más dolgunk nincs, mint beszúrni a következő kódot az oldal aljára (a &lt;/body&gt; elé):</p>
-    <pre><code>&lt;script&gt;<br />var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br />s = document.getElementsByTagName('script')[0],<br />e = document.createElement('script');<br />e.id = 'igemutato-script';<br />e.src = 'http://molnarm.github.io/igemutato.min.js';<br />s.parentNode.insertBefore(e, s);<br />&lt;/script&gt;</code></pre>
+    <pre><code>&lt;script&gt;<br />var igemutato = {<span style="font-weight:bold; color:blue;">config: {forditas: 'KNB'}</span>},<br />s = document.getElementsByTagName('script')[0],<br />e = document.createElement('script');<br />e.id = 'igemutato-script';<br />e.src = 'https://molnarm.github.io/igemutato.min.js';<br />s.parentNode.insertBefore(e, s);<br />&lt;/script&gt;</code></pre>
     <p>A beállítások a fent kiemelt <span style="color:blue;">config</span> objektumban adhatók meg (egyik sem kötelező):</p>
     <table>
         <tr>
@@ -101,7 +108,7 @@
             s = document.getElementsByTagName('script')[0],
             e = document.createElement('script');
         e.id = 'igemutato-script';
-        e.src = '//molnarm.github.io/igemutato.min.js';
+        e.src = 'https://molnarm.github.io/igemutato.min.js';
         s.parentNode.insertBefore(e, s);
     </script>
 </body>
