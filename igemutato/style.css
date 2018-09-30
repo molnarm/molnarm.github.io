@@ -7,12 +7,15 @@
 }
 
 body {
-    width: 800px;
+    text-align: left;
+    background: white;
+}
+
+#content {
+    max-width: 800px;
     margin: 1em auto;
     padding: 3em;
-    text-align: left;
     border: 1px solid #ddd;
-    background: white;
 }
 
 .nagy li {
