@@ -81,3 +81,9 @@ h1, h2, h3, #downloads a {
         width: 128px;
         height: 128px;
     }
+
+    .error{
+        padding: 10px;
+        background: #ffbbbb;
+        border: 1px solid red;
+    }
